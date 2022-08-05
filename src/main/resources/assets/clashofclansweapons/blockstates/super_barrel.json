@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/super_barrel"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/super_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/super_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/super_barrel",
+      "y": 270
+    }
+  }
+}

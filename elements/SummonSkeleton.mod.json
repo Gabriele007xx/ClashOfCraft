@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "H",
+    "keyBindingName": "Summon Skeleton",
+    "keyBindingCategoryKey": "items",
+    "onKeyPressed": {
+      "name": "SummonSkeletonOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/goldminelivdue",
+  "textures": {
+    "all": "clashofclansweapons:blocks/dark_oak_planks",
+    "particle": "clashofclansweapons:blocks/dark_oak_planks",
+    "0": "clashofclansweapons:blocks/dark_oak_planks",
+    "1": "clashofclansweapons:blocks/rail",
+    "2": "clashofclansweapons:blocks/iron_block",
+    "missing": "clashofclansweapons:blocks/iron_block"
+  }
+}

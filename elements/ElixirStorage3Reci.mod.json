@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ElixirStorageLv2"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:HammerOfBuilding"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:ElixirStorageLiv3"
+    },
+    "name": "elixir_storage_3_reci",
+    "namespace": "mod"
+  }
+}

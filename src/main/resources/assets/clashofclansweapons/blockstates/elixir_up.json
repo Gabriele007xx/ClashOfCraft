@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/elixir_up"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/elixir_up",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/elixir_up",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/elixir_up",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 89,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Welcome Chief!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Welcome Chief!",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "My name is...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "My name is...",
+          "x": 177,
+          "y": 89
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Name",
+          "width": 120,
+          "height": 20,
+          "name": "name",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Done",
+          "onClick": {
+            "name": "NameP"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Done",
+          "x": 195,
+          "y": 122
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

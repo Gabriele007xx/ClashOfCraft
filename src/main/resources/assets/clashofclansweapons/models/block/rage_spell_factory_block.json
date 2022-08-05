@@ -1,0 +1,13 @@
+{
+  "parent": "clashofclansweapons:custom/healspellfactory",
+  "textures": {
+    "all": "clashofclansweapons:blocks/rage",
+    "particle": "clashofclansweapons:blocks/rage",
+    "0": "clashofclansweapons:blocks/stone",
+    "1": "clashofclansweapons:blocks/oak_planks",
+    "2": "clashofclansweapons:blocks/barrel_side",
+    "3": "clashofclansweapons:blocks/gam",
+    "4": "clashofclansweapons:blocks/rage",
+    "missing": "clashofclansweapons:blocks/rage"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 192,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Dark Elixir Drill (Liv.3)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dark Elixir Drill (Liv.3)",
+          "x": 159,
+          "y": 35
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ItemTakenTwo"
+          },
+          "name": "Slot #0",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Production: 0.2 dark elixir/sec",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Production: 0.2 dark elixir/sec",
+          "x": 132,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Capacity:<BNBT:integer:capacity>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Capacity:<BNBT:integer:capacity>",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_empty.png",
+          "use1Xscale": false,
+          "name": "bar_empty.png",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "de_bar1.png",
+          "use1Xscale": false,
+          "name": "de_bar1.png",
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "de_bar1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar25"
+          },
+          "name": "de_bar1.png",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "de_bar2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar50"
+          },
+          "name": "de_bar2.png",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "de_bar3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar75"
+          },
+          "name": "de_bar3.png",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "de_bar4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar100"
+          },
+          "name": "de_bar4.png",
+          "x": 132,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

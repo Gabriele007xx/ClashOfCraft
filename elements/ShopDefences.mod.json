@@ -1,0 +1,82 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Defences",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Defences",
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cost: 1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cost: 1",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gold.png",
+          "use1Xscale": true,
+          "name": "gold.png",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "MortarOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Buy",
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mortar1.png",
+          "use1Xscale": true,
+          "name": "mortar1.png",
+          "x": 141,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

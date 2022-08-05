@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "mortar1",
+    "customModelName": "Normal",
+    "name": "Mortar (Lv 1)",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Rock"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:mortar.item.shoots"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.3,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Rock"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "MortarLv1BulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "MortarLv1BulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "MortarLv1BulletHitsBlock"
+    }
+  }
+}

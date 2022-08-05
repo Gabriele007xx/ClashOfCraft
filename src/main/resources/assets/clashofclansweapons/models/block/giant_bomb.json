@@ -1,0 +1,12 @@
+{
+  "parent": "clashofclansweapons:custom/giantbomb",
+  "textures": {
+    "all": "clashofclansweapons:blocks/oak_planks",
+    "particle": "clashofclansweapons:blocks/oak_planks",
+    "0": "clashofclansweapons:blocks/barrel_top",
+    "1": "clashofclansweapons:blocks/barrel_side",
+    "2": "clashofclansweapons:blocks/barrel_top_open",
+    "3": "clashofclansweapons:blocks/oak_planks",
+    "4": "clashofclansweapons:blocks/polished_deepslate"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Elixir Collector (Liv.2)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Elixir Collector (Liv.2)",
+          "x": 150,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "Itemtakenfromlv2"
+          },
+          "name": "Slot #0",
+          "x": 267,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "elixirbar1.png",
+          "use1Xscale": false,
+          "name": "elixirbar1.png",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Production:0.5 elixir/sec",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "Production:0.5 elixir/sec",
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_empty.png",
+          "use1Xscale": false,
+          "name": "bar_empty.png",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Capacity:<BNBT:integer:capacity>",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "Capacity:<BNBT:integer:capacity>",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar25"
+          },
+          "name": "bar_1.png",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar50"
+          },
+          "name": "bar_2.png",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar75"
+          },
+          "name": "bar_3.png",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar100"
+          },
+          "name": "bar_4.png",
+          "x": 132,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GrassBlockBuilderBase"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "CUSTOM:CocGrass"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

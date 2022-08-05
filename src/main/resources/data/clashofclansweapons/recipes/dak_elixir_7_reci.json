@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "clashofclansweapons:dark_elixir_storage_level_6"
+  },
+  "addition": {
+    "item": "clashofclansweapons:hammer_of_building"
+  },
+  "result": {
+    "item": "clashofclansweapons:dark_elixir_storage_lv_7"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "battlebuilderhutprojectile",
+    "customModelName": "Normal",
+    "name": "Rocket R",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 4.0,
+    "bulletDamage": 1.4,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelrocket_art_proj",
+    "customBulletModelTexture": "rocket_art_proj.png",
+    "onBulletHitsBlock": {
+      "name": "RocketRProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RocketRProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "RocketRProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "RocketRWhileProjectileFlyingTick"
+    }
+  }
+}

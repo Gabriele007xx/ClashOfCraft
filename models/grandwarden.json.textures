@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "clash_of_clans_grand_warden",
+        "missing": "clash_of_clans_grand_warden"
+      },
+      "name": "default"
+    }
+  }
+}

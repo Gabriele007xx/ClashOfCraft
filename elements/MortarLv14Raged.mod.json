@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "mortar13",
+    "customModelName": "Normal",
+    "name": "Mortar (Lv 14)",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "shootConstantly": false,
+    "usageCount": 750,
+    "actionSound": {
+      "value": "CUSTOM:empty.placeholder.sound"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "MortarLv1RangedItemUsed"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 14.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "MortarLv10BulletHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "MortarLv10BulletHitsLivingEntity"
+    }
+  }
+}

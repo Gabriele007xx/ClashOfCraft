@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spruce_planks",
+        "1": "stone",
+        "2": "dark_oak_planks",
+        "3": "acacia_planks"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/dark_barracks"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/dark_barracks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/dark_barracks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/dark_barracks",
+      "y": 270
+    }
+  }
+}

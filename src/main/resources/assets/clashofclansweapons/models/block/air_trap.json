@@ -1,0 +1,7 @@
+  "parent": "clashofclansweapons:custom/air_na",
+  "textures": {
+    "all": "clashofclansweapons:blocks/air_t",
+    "particle": "clashofclansweapons:blocks/air_t",
+    "0": "clashofclansweapons:blocks/air_t"
+  }
+}

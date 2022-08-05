@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/clancastlelevelone",
+  "textures": {
+    "all": "clashofclansweapons:blocks/clan_castle_lv1_door_window",
+    "particle": "clashofclansweapons:blocks/clan_castle_lv1_door_window",
+    "0": "clashofclansweapons:blocks/oak_planks",
+    "1": "clashofclansweapons:blocks/stone",
+    "2": "clashofclansweapons:blocks/clan_castle_lv1_door_window",
+    "3": "clashofclansweapons:blocks/clan_castle_level1_door_on"
+  }
+}

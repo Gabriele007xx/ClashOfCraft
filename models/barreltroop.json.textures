@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "barrel_top",
+        "1": "stone",
+        "2": "barrel_side"
+      },
+      "name": "default"
+    }
+  }
+}

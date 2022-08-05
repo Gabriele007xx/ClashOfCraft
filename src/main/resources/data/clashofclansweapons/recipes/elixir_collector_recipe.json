@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "clashofclansweapons:tube"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "clashofclansweapons:tube"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "6": {
+      "item": "clashofclansweapons:pump"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "clashofclansweapons:elixir_collector_level_1",
+    "count": 1
+  }
+}

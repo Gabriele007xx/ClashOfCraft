@@ -1,0 +1,10 @@
+{
+  "parent": "clashofclansweapons:custom/barrackde",
+  "textures": {
+    "all": "clashofclansweapons:blocks/darbarra1",
+    "particle": "clashofclansweapons:blocks/darbarra1",
+    "0": "clashofclansweapons:blocks/stone",
+    "2": "clashofclansweapons:blocks/oak_planks",
+    "3": "clashofclansweapons:blocks/darbarra1"
+  }
+}

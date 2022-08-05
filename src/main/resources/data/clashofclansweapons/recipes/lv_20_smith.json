@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "clashofclansweapons:battle_machine_lv_10_item"
+  },
+  "addition": {
+    "item": "clashofclansweapons:hammer_of_heroes"
+  },
+  "result": {
+    "item": "clashofclansweapons:battle_machine_lv_20_item"
+  }
+}

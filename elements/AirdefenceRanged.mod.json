@@ -1,0 +1,49 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "air_defense1",
+    "customModelName": "Normal",
+    "name": "Airdefence Ranged",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "CUSTOM:entity.aidefence.fireworkssfx"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "WizardProjectileBulletHitsBlock"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.FIREWORKS"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "AirdefenceRangedBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "AirdefenceRangedBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "AirdefenceRangedBulletHitsBlock"
+    }
+  }
+}

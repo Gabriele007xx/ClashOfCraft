@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:DarkElixirStorageLevel6"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:HammerOfBuilding"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:DarkElixirStorageLv7"
+    },
+    "name": "dak_elixir_7_reci",
+    "namespace": "mod"
+  }
+}

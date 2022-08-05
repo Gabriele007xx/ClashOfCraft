@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "2": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "3": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "4": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "5": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "6": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "7": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "8": {
+      "item": "clashofclansweapons:elixir"
+    }
+  },
+  "result": {
+    "item": "clashofclansweapons:elixir_armor_chestplate",
+    "count": 1
+  }
+}

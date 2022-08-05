@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stone",
+        "1": "crimson_planks",
+        "2": "oak_planks",
+        "3": "barrack"
+      },
+      "name": "default"
+    }
+  }
+}

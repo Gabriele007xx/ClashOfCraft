@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_fence"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:oak_fence"
+    }
+  ],
+  "result": {
+    "item": "clashofclansweapons:elixir_storage_lv_1",
+    "count": 1
+  }
+}

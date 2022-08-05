@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/town_hall_lv_4"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/town_hall_lv_4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/town_hall_lv_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/town_hall_lv_4",
+      "y": 270
+    }
+  }
+}

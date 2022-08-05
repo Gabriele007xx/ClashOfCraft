@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ec",
+        "1": "glass",
+        "missing": "glass"
+      },
+      "name": "default"
+    },
+    "collect100": {
+      "map": {
+        "0": "ec",
+        "1": "elixircollector100",
+        "missing": "elixircollector100"
+      },
+      "name": "collect100"
+    },
+    "collect50": {
+      "map": {
+        "0": "ec",
+        "1": "elixircollector50",
+        "missing": "elixircollector50"
+      },
+      "name": "collect50"
+    },
+    "collect75": {
+      "map": {
+        "0": "ec",
+        "1": "elixircollector75",
+        "missing": "elixircollector75"
+      },
+      "name": "collect75"
+    },
+    "collect25": {
+      "map": {
+        "0": "ec",
+        "1": "elixircollector25",
+        "missing": "elixircollector25"
+      },
+      "name": "collect25"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "lava_launcher1",
+    "customModelName": "Normal",
+    "name": "Lava Launcher (Lv 1)",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "shootConstantly": false,
+    "usageCount": 250,
+    "actionSound": {
+      "value": "CUSTOM:empty.placeholder.sound"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "LavaLauncherLv1RangedItemUsed"
+    },
+    "bulletPower": 1.2000000000000002,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "LavaLauncherLv1BulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "LavaLauncherLv1BulletHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "clashofclansweapons:custom/archerqueenaltar",
+  "textures": {
+    "all": "clashofclansweapons:blocks/archerqueen_altartop",
+    "particle": "clashofclansweapons:blocks/archerqueen_altartop",
+    "0": "clashofclansweapons:blocks/oak_planks",
+    "1": "clashofclansweapons:blocks/archerqueen_altartop"
+  }
+}

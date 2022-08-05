@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "de_storage_lv7"
+      },
+      "name": "default"
+    },
+    "lv6": {
+      "map": {
+        "0": "de_sytorage_block_texture"
+      },
+      "name": "lv6"
+    },
+    "lv625": {
+      "map": {
+        "0": "de_storage_lv6_25fullp"
+      },
+      "name": "lv625"
+    },
+    "lv650": {
+      "map": {
+        "0": "de_storage_lv6_50fullp"
+      },
+      "name": "lv650"
+    },
+    "lv675": {
+      "map": {
+        "0": "de_storage_lv6_75fullp"
+      },
+      "name": "lv675"
+    },
+    "lv6100": {
+      "map": {
+        "0": "de_storage_lv6_100fullp"
+      },
+      "name": "lv6100"
+    }
+  }
+}

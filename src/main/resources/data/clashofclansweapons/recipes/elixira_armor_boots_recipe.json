@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "2": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "3": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "5": {
+      "item": "clashofclansweapons:elixir"
+    }
+  },
+  "result": {
+    "item": "clashofclansweapons:elixir_armor_boots",
+    "count": 1
+  }
+}

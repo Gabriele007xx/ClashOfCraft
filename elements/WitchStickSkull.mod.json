@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "witch_skullstick",
+    "customModelName": "Normal",
+    "name": "Witch Stick",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Weapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:WitchProjectileDa"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "WitchStickSkullBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "WitchStickSkullBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "WitchStickSkullBulletHitsBlock"
+    }
+  }
+}

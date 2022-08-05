@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "clashofclansweapons:elixir_collector_level_1"
+  },
+  "addition": {
+    "item": "clashofclansweapons:hammer_of_building"
+  },
+  "result": {
+    "item": "clashofclansweapons:elixir_collector_level_2"
+  }
+}

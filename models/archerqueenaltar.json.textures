@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "archerqueen_altartop"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "clashofclansweapons:custom/darkelixirdrill3",
+  "textures": {
+    "all": "clashofclansweapons:blocks/darkelixirdrill100",
+    "particle": "clashofclansweapons:blocks/darkelixirdrill100",
+    "0": "clashofclansweapons:blocks/darkelixirdrill100",
+    "1": "clashofclansweapons:blocks/gold_block",
+    "missing": "clashofclansweapons:blocks/gold_block"
+  }
+}

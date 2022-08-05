@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "darkelixirdrill",
+        "missing": "darkelixirdrill"
+      },
+      "name": "default"
+    },
+    "full25": {
+      "map": {
+        "0": "darkelixirdrill25",
+        "missing": "darkelixirdrill25"
+      },
+      "name": "full25"
+    },
+    "full100": {
+      "map": {
+        "0": "darkelixirdrill100",
+        "missing": "darkelixirdrill100"
+      },
+      "name": "full100"
+    },
+    "full50": {
+      "map": {
+        "0": "darkelixirdrill50",
+        "missing": "darkelixirdrill50"
+      },
+      "name": "full50"
+    },
+    "full75": {
+      "map": {
+        "0": "darkelixirdrill75",
+        "missing": "darkelixirdrill75"
+      },
+      "name": "full75"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "clashofclansweapons:custom/darkelixirstorage",
+  "textures": {
+    "all": "clashofclansweapons:blocks/de_sytorage_block_texture",
+    "particle": "clashofclansweapons:blocks/de_sytorage_block_texture",
+    "0": "clashofclansweapons:blocks/de_sytorage_block_texture"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "x-bow1_ground",
+    "customModelName": "Normal",
+    "name": "Xbow (liv.1)",
+    "specialInfo": [
+      "The X-Bow shoots mystical bolts with terrifying power. Load it with Elixir and the X-Bow works automagically."
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Elixir"
+    },
+    "shootConstantly": true,
+    "usageCount": 500,
+    "actionSound": {
+      "value": "CUSTOM:placeholder.empty.ogg"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "XBowRangedItemUsed"
+    },
+    "bulletPower": 1.5,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Elixir"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

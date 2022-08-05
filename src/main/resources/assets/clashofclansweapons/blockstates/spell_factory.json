@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/spell_factory"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/spell_factory",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/spell_factory",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/spell_factory",
+      "y": 270
+    }
+  }
+}

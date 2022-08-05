@@ -1,0 +1,134 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 188,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 12,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_empty.png",
+          "use1Xscale": false,
+          "name": "arrow_empty.png",
+          "x": 186,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Trade",
+          "onClick": {
+            "name": "TradeButtonClickProc"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Trade",
+          "x": 186,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Builder",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Builder",
+          "x": 195,
+          "y": 35
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 159,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_empty.png",
+          "use1Xscale": false,
+          "name": "arrow_empty.png",
+          "x": 186,
+          "y": 80
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 204,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "x5 Emeralds",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "x5 Emeralds",
+          "x": 132,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1 Book of Building",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1 Book of Building",
+          "x": 204,
+          "y": 53
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "BuilderGUIWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

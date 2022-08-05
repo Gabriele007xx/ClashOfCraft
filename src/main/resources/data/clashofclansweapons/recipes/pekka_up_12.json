@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "clashofclansweapons:pekka_lv_1_item"
+  },
+  "addition": {
+    "item": "clashofclansweapons:hammer_of_building"
+  },
+  "result": {
+    "item": "clashofclansweapons:pekka_lv_2_item"
+  }
+}

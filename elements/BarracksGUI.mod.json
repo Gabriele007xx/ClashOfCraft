@@ -1,0 +1,101 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Elixir"
+          },
+          "color": {
+            "value": -65281,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_empty.png",
+          "use1Xscale": false,
+          "name": "arrow_empty.png",
+          "x": 204,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Barracks",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Barracks",
+          "x": 195,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Elixir:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Elixir:",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Make",
+          "onClick": {
+            "name": "ButtonBarracksClicked"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Make",
+          "x": 209,
+          "y": 94
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

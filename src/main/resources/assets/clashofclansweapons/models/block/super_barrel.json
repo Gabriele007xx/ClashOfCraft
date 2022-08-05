@@ -1,0 +1,10 @@
+{
+  "parent": "clashofclansweapons:custom/barreltroop",
+  "textures": {
+    "all": "clashofclansweapons:blocks/barrel_side",
+    "particle": "clashofclansweapons:blocks/barrel_side",
+    "0": "clashofclansweapons:blocks/barrel_top",
+    "1": "clashofclansweapons:blocks/stone",
+    "2": "clashofclansweapons:blocks/barrel_side"
+  }
+}

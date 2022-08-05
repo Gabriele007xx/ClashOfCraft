@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/upgradestation",
+  "textures": {
+    "all": "clashofclansweapons:blocks/cartello",
+    "particle": "clashofclansweapons:blocks/cartello",
+    "0": "clashofclansweapons:blocks/oak_planks",
+    "1": "clashofclansweapons:blocks/crafting_table_top",
+    "2": "clashofclansweapons:blocks/cartelloelisir",
+    "3": "clashofclansweapons:blocks/stone"
+  }
+}

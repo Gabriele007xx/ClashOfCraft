@@ -1,0 +1,80 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Health:<VAR:integer:bmh>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Health:<VAR:integer:bmh>",
+          "x": 33,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Space: Jump",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Space: Jump",
+          "x": 366,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ability_l.png",
+          "use1Xscale": true,
+          "name": "ability_l.png",
+          "x": 6,
+          "y": 179
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ability_lc.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Showcooldown"
+          },
+          "name": "ability_lc.png",
+          "x": 6,
+          "y": 179
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hitpoint.png",
+          "use1Xscale": false,
+          "name": "hitpoint.png",
+          "x": 6,
+          "y": 8
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "Overlayshowingfunc"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "crafting_table_top",
+        "2": "cartello",
+        "3": "stone"
+      },
+      "name": "default"
+    },
+    "elixirstorage": {
+      "map": {
+        "0": "oak_planks",
+        "1": "crafting_table_top",
+        "2": "cartelloelisir",
+        "3": "stone"
+      },
+      "name": "elixirstorage"
+    },
+    "clanc": {
+      "map": {
+        "0": "cobblestone",
+        "1": "crafting_table_top",
+        "2": "cobblestone",
+        "3": "stone"
+      },
+      "name": "clanc"
+    },
+    "goldgen": {
+      "map": {
+        "0": "oak_planks",
+        "1": "crafting_table_top",
+        "2": "cartell",
+        "3": "stone"
+      },
+      "name": "goldgen"
+    }
+  }
+}

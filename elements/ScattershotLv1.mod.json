@@ -1,0 +1,51 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "scattershot1",
+    "customModelName": "Normal",
+    "name": "Scattershot (Lv 1)",
+    "specialInfo": [
+      "The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind."
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "shootConstantly": false,
+    "usageCount": 90,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "ScattershotLv1RangedItemUsed"
+    },
+    "bulletPower": 3.0,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelscattershot_bulletsnew",
+    "customBulletModelTexture": "scattershot_rockz.png",
+    "onBulletHitsBlock": {
+      "name": "ScattershotLv1BulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "ScattershotLv1BulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "ScattershotLv1BulletHitsBlock"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dark_oak_planks",
+        "1": "rail",
+        "2": "iron_block",
+        "missing": "iron_block"
+      },
+      "name": "default"
+    }
+  }
+}

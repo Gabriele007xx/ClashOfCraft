@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "de_storage_lv8"
+      },
+      "name": "default"
+    },
+    "lv9": {
+      "map": {
+        "0": "de_storage_lv9"
+      },
+      "name": "lv9"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_planks",
+        "1": "stone",
+        "2": "clan_castle_lv1_door_window",
+        "3": "clan_castle_level1_door_on"
+      },
+      "name": "default"
+    }
+  }
+}

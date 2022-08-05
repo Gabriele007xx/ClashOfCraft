@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "clashofclansweapons:blocks/darkelixirore",
+    "up": "clashofclansweapons:blocks/darkelixirore",
+    "north": "clashofclansweapons:blocks/darkelixirore",
+    "east": "clashofclansweapons:blocks/darkelixirore",
+    "south": "clashofclansweapons:blocks/darkelixirore",
+    "west": "clashofclansweapons:blocks/darkelixirore",
+    "particle": "clashofclansweapons:blocks/darkelixirore"
+  }
+}

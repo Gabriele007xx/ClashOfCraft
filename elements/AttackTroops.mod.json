@@ -1,0 +1,38 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:ArcherQueen"
+      },
+      {
+        "value": "CUSTOM:BMachine"
+      },
+      {
+        "value": "CUSTOM:HogRider"
+      },
+      {
+        "value": "CUSTOM:Pekkalevel1"
+      },
+      {
+        "value": "CUSTOM:Pekkalevel2"
+      },
+      {
+        "value": "CUSTOM:Unicorn"
+      },
+      {
+        "value": "CUSTOM:Wizard"
+      },
+      {
+        "value": "CUSTOM:LASSI"
+      }
+    ],
+    "name": "troops",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:XbowLv1"
+      },
+      {
+        "value": "CUSTOM:InfernoTower"
+      },
+      {
+        "value": "CUSTOM:MortarLv10E"
+      },
+      {
+        "value": "CUSTOM:EagleArtillery"
+      },
+      {
+        "value": "CUSTOM:CannonLv1"
+      },
+      {
+        "value": "CUSTOM:Scattershot"
+      }
+    ],
+    "name": "buildings",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 33,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Rage Spell",
+    "splashName": "Splash Potion of Rage Spell",
+    "lingeringName": "Lingering Potion of Rage Spell",
+    "arrowName": "Arrow of Rage Spell",
+    "effects": [
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

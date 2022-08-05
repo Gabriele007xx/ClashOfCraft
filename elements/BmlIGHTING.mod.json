@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F",
+    "keyBindingName": "Lighting",
+    "keyBindingCategoryKey": "battlemachinecontrols",
+    "onKeyPressed": {
+      "name": "BmlIGHTINGOnKeyPressed"
+    }
+  }
+}

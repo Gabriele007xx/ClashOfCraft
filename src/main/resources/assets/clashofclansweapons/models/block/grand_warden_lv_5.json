@@ -1,0 +1,9 @@
+{
+  "parent": "clashofclansweapons:custom/grandwarden",
+  "textures": {
+    "all": "clashofclansweapons:blocks/clash_of_clans_grand_warden",
+    "particle": "clashofclansweapons:blocks/clash_of_clans_grand_warden",
+    "0": "clashofclansweapons:blocks/clash_of_clans_grand_warden",
+    "missing": "clashofclansweapons:blocks/clash_of_clans_grand_warden"
+  }
+}

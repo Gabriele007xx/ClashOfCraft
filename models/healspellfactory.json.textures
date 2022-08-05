@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stone",
+        "1": "oak_planks",
+        "2": "barrel_side",
+        "3": "gam",
+        "4": "he",
+        "missing": "he"
+      },
+      "name": "default"
+    },
+    "rage": {
+      "map": {
+        "0": "stone",
+        "1": "oak_planks",
+        "2": "barrel_side",
+        "3": "gam",
+        "4": "rage",
+        "missing": "rage"
+      },
+      "name": "rage"
+    },
+    "frost": {
+      "map": {
+        "0": "stone",
+        "1": "oak_planks",
+        "2": "barrel_side",
+        "3": "gam",
+        "4": "frost",
+        "missing": "frost"
+      },
+      "name": "frost"
+    },
+    "jump": {
+      "map": {
+        "0": "stone",
+        "1": "oak_planks",
+        "2": "barrel_side",
+        "3": "gam",
+        "4": "jump",
+        "missing": "jump"
+      },
+      "name": "jump"
+    }
+  }
+}
