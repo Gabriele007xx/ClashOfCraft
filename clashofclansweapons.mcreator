@@ -8509,13 +8509,29 @@
       "type": "armor",
       "sortid": 554,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "giant_armor",
       "metadata": {
         "eh": false,
         "el": false,
         "eb": false,
         "ec": true
+      }
+    },
+    {
+      "name": "Knockback",
+      "type": "procedure",
+      "sortid": 555,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "knockback",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],
