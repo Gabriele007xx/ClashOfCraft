@@ -48,6 +48,7 @@ import net.mcreator.clashofclansweapons.client.renderer.FlameFingerWeaponRendere
 import net.mcreator.clashofclansweapons.client.renderer.FireSpiritRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.FFRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.ElectroOwlRenderer;
+import net.mcreator.clashofclansweapons.client.renderer.EarthquakeDRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.EagleArtilleryRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.DragonRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.DoubleCannonShotgunRenderer;
@@ -160,5 +161,6 @@ public class ClashofclansweaponsModEntityRenderers {
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.C_CRAGE.get(), CCrageRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.JUMP_AREA.get(), JumpAreaRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.JUMP_ENTITY.get(), JumpEntityRenderer::new);
+		event.registerEntityRenderer(ClashofclansweaponsModEntities.EARTHQUAKE_D.get(), EarthquakeDRenderer::new);
 	}
 }

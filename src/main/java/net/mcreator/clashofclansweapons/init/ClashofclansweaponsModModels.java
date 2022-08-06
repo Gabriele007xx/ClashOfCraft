@@ -35,6 +35,7 @@ import net.mcreator.clashofclansweapons.client.model.Modelflyingf;
 import net.mcreator.clashofclansweapons.client.model.Modelflamefinger;
 import net.mcreator.clashofclansweapons.client.model.Modelfirespirit;
 import net.mcreator.clashofclansweapons.client.model.Modelelectrohoownew;
+import net.mcreator.clashofclansweapons.client.model.Modelearthquake_model;
 import net.mcreator.clashofclansweapons.client.model.Modeldragonnew;
 import net.mcreator.clashofclansweapons.client.model.Modeldoublecannonlvone;
 import net.mcreator.clashofclansweapons.client.model.Modelcchealbottle;
@@ -88,6 +89,7 @@ public class ClashofclansweaponsModModels {
 		event.registerLayerDefinition(ModelTownHall12.LAYER_LOCATION, ModelTownHall12::createBodyLayer);
 		event.registerLayerDefinition(Modelmountain_go.LAYER_LOCATION, Modelmountain_go::createBodyLayer);
 		event.registerLayerDefinition(Modelscattershot_bulletsnew.LAYER_LOCATION, Modelscattershot_bulletsnew::createBodyLayer);
+		event.registerLayerDefinition(Modelearthquake_model.LAYER_LOCATION, Modelearthquake_model::createBodyLayer);
 		event.registerLayerDefinition(Modelbigboynew.LAYER_LOCATION, Modelbigboynew::createBodyLayer);
 		event.registerLayerDefinition(Modelccapitalh.LAYER_LOCATION, Modelccapitalh::createBodyLayer);
 		event.registerLayerDefinition(Modelcchealbottle.LAYER_LOCATION, Modelcchealbottle::createBodyLayer);

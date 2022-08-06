@@ -68,6 +68,7 @@ import net.mcreator.clashofclansweapons.entity.FireSpiritEntity;
 import net.mcreator.clashofclansweapons.entity.FFEntity;
 import net.mcreator.clashofclansweapons.entity.ElectroOwlRAGEDEntity;
 import net.mcreator.clashofclansweapons.entity.ElectroOwlEntity;
+import net.mcreator.clashofclansweapons.entity.EarthquakeDEntity;
 import net.mcreator.clashofclansweapons.entity.EagleArtilleryEntity;
 import net.mcreator.clashofclansweapons.entity.EaEntity;
 import net.mcreator.clashofclansweapons.entity.DragonWeaponEntity;
@@ -468,6 +469,11 @@ public class ClashofclansweaponsModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(JumpEntityEntity::new)
 
 					.sized(0.4f, 0.4f));
+	public static final RegistryObject<EntityType<EarthquakeDEntity>> EARTHQUAKE_D = register("earthquake_d",
+			EntityType.Builder.<EarthquakeDEntity>of(EarthquakeDEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EarthquakeDEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -532,6 +538,7 @@ public class ClashofclansweaponsModEntities {
 			CCrageEntity.init();
 			JumpAreaEntity.init();
 			JumpEntityEntity.init();
+			EarthquakeDEntity.init();
 		});
 	}
 
@@ -593,5 +600,6 @@ public class ClashofclansweaponsModEntities {
 		event.put(C_CRAGE.get(), CCrageEntity.createAttributes().build());
 		event.put(JUMP_AREA.get(), JumpAreaEntity.createAttributes().build());
 		event.put(JUMP_ENTITY.get(), JumpEntityEntity.createAttributes().build());
+		event.put(EARTHQUAKE_D.get(), EarthquakeDEntity.createAttributes().build());
 	}
 }

@@ -5,9 +5,9 @@
         "0": "stone",
         "1": "oak_planks",
         "2": "barrel_side",
-        "3": "gam",
-        "4": "he",
-        "missing": "he"
+        "3": "he",
+        "4": "gam",
+        "missing": "gam"
       },
       "name": "default"
     },
@@ -16,9 +16,9 @@
         "0": "stone",
         "1": "oak_planks",
         "2": "barrel_side",
-        "3": "gam",
-        "4": "rage",
-        "missing": "rage"
+        "3": "rage",
+        "4": "gam",
+        "missing": "gam"
       },
       "name": "rage"
     },
@@ -27,9 +27,9 @@
         "0": "stone",
         "1": "oak_planks",
         "2": "barrel_side",
-        "3": "gam",
-        "4": "frost",
-        "missing": "frost"
+        "3": "frost",
+        "4": "gam",
+        "missing": "gam"
       },
       "name": "frost"
     },
@@ -38,9 +38,9 @@
         "0": "stone",
         "1": "oak_planks",
         "2": "barrel_side",
-        "3": "gam",
-        "4": "jump",
-        "missing": "jump"
+        "3": "jump",
+        "4": "gam",
+        "missing": "gam"
       },
       "name": "jump"
     }

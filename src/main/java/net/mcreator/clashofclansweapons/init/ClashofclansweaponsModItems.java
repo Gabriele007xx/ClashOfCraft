@@ -74,6 +74,7 @@ import net.mcreator.clashofclansweapons.item.FFItem;
 import net.mcreator.clashofclansweapons.item.ElixiraArmorItem;
 import net.mcreator.clashofclansweapons.item.ElixirItem;
 import net.mcreator.clashofclansweapons.item.ElectroOwlRAGEDItem;
+import net.mcreator.clashofclansweapons.item.EarthquakeItem;
 import net.mcreator.clashofclansweapons.item.EagleArtilleryItemItem;
 import net.mcreator.clashofclansweapons.item.EaItem;
 import net.mcreator.clashofclansweapons.item.EAPItem;
@@ -474,6 +475,7 @@ public class ClashofclansweaponsModItems {
 			() -> new ClanCapitalJumpSpellItem());
 	public static final RegistryObject<Item> JUMP_SPELL_FACTORY_I = block(ClashofclansweaponsModBlocks.JUMP_SPELL_FACTORY_I,
 			ClashofclansweaponsModTabs.TAB_BUILDINGS);
+	public static final RegistryObject<Item> EARTHQUAKE = REGISTRY.register("earthquake", () -> new EarthquakeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
