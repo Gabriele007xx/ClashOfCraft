@@ -69,6 +69,7 @@ import net.mcreator.clashofclansweapons.item.HammerItem;
 import net.mcreator.clashofclansweapons.item.GoldCoinItem;
 import net.mcreator.clashofclansweapons.item.GiantItemItem;
 import net.mcreator.clashofclansweapons.item.GiantBallsItem;
+import net.mcreator.clashofclansweapons.item.GiantArmorItem;
 import net.mcreator.clashofclansweapons.item.GearItem;
 import net.mcreator.clashofclansweapons.item.FFItem;
 import net.mcreator.clashofclansweapons.item.ElixiraArmorItem;
@@ -476,6 +477,8 @@ public class ClashofclansweaponsModItems {
 	public static final RegistryObject<Item> JUMP_SPELL_FACTORY_I = block(ClashofclansweaponsModBlocks.JUMP_SPELL_FACTORY_I,
 			ClashofclansweaponsModTabs.TAB_BUILDINGS);
 	public static final RegistryObject<Item> EARTHQUAKE = REGISTRY.register("earthquake", () -> new EarthquakeItem());
+	public static final RegistryObject<Item> GIANT_ARMOR_CHESTPLATE = REGISTRY.register("giant_armor_chestplate",
+			() -> new GiantArmorItem.Chestplate());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

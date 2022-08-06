@@ -31,6 +31,7 @@ import net.mcreator.clashofclansweapons.client.model.Modelinfernotowerlv1new;
 import net.mcreator.clashofclansweapons.client.model.Modelhogridernew;
 import net.mcreator.clashofclansweapons.client.model.Modelgiantlv1new;
 import net.mcreator.clashofclansweapons.client.model.Modelgiant_cannon;
+import net.mcreator.clashofclansweapons.client.model.Modelgiant_armor_petto;
 import net.mcreator.clashofclansweapons.client.model.Modelflyingf;
 import net.mcreator.clashofclansweapons.client.model.Modelflamefinger;
 import net.mcreator.clashofclansweapons.client.model.Modelfirespirit;
@@ -96,6 +97,7 @@ public class ClashofclansweaponsModModels {
 		event.registerLayerDefinition(Modelmortar_lv_14new.LAYER_LOCATION, Modelmortar_lv_14new::createBodyLayer);
 		event.registerLayerDefinition(Modelgiantlv1new.LAYER_LOCATION, Modelgiantlv1new::createBodyLayer);
 		event.registerLayerDefinition(Modelmortar_lv_tennew.LAYER_LOCATION, Modelmortar_lv_tennew::createBodyLayer);
+		event.registerLayerDefinition(Modelgiant_armor_petto.LAYER_LOCATION, Modelgiant_armor_petto::createBodyLayer);
 		event.registerLayerDefinition(Modeldragonnew.LAYER_LOCATION, Modeldragonnew::createBodyLayer);
 		event.registerLayerDefinition(Modeldoublecannonlvone.LAYER_LOCATION, Modeldoublecannonlvone::createBodyLayer);
 		event.registerLayerDefinition(Modelcannonball.LAYER_LOCATION, Modelcannonball::createBodyLayer);
