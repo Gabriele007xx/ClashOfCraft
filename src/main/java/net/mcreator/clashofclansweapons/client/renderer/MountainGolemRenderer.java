@@ -1,5 +1,6 @@
 
-package net.mcreator.clashofclansweapons.client.renderer;
+/**
+ * package net.mcreator.clashofclansweapons.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.MobRenderer;
@@ -18,3 +19,4 @@ public class MountainGolemRenderer extends MobRenderer<MountainGolemEntity, Mode
 		return new ResourceLocation("clashofclansweapons:textures/mountain_go.png");
 	}
 }
+**/

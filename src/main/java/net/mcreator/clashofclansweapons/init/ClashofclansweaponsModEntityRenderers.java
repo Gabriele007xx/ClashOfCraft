@@ -73,6 +73,7 @@ import net.mcreator.clashofclansweapons.client.renderer.ArcherQueenRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.AirDefenceRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.AirBBRenderer;
 import net.mcreator.clashofclansweapons.client.renderer.AirBBBRenderer;
+import net.mcreator.clashofclansweapons.MountainGolemRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClashofclansweaponsModEntityRenderers {

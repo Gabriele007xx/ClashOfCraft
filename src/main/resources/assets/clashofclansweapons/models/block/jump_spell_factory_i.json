@@ -6,8 +6,8 @@
     "0": "clashofclansweapons:blocks/stone",
     "1": "clashofclansweapons:blocks/oak_planks",
     "2": "clashofclansweapons:blocks/barrel_side",
-    "3": "clashofclansweapons:blocks/gam",
-    "4": "clashofclansweapons:blocks/jump",
-    "missing": "clashofclansweapons:blocks/jump"
+    "3": "clashofclansweapons:blocks/jump",
+    "4": "clashofclansweapons:blocks/gam",
+    "missing": "clashofclansweapons:blocks/gam"
   }
 }

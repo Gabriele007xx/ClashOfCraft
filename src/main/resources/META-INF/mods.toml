@@ -20,4 +20,10 @@ authors="Gabriele"
 
 
 
+[[dependencies.clashofclansweapons]]
+    modId="gecholib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

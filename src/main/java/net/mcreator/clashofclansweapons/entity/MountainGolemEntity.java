@@ -24,8 +24,16 @@ import net.mcreator.clashofclansweapons.init.ClashofclansweaponsModGameRules;
 import net.mcreator.clashofclansweapons.init.ClashofclansweaponsModEntities;
 
 import coc.troop.clancapital.ClanCapitalTroopBase;
+import software.bernie.geckolib3.core.IAnimatable;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.manager.AnimationFactory;
+import software.bernie.geckolib3.core.PlayState;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.controller.AnimationController;
 
-public class MountainGolemEntity extends ClanCapitalTroopBase {
+public class MountainGolemEntity extends ClanCapitalTroopBase implements IAnimatable{
+private AnimationFactory factory = new AnimationFactory(this);
 	public MountainGolemEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ClashofclansweaponsModEntities.MOUNTAIN_GOLEM.get(), world);
 	}
@@ -87,5 +95,25 @@ public class MountainGolemEntity extends ClanCapitalTroopBase {
 				this.level.explode(null, this.getX(), this.getY(), this.getZ(), 7, Explosion.BlockInteraction.NONE);
 			}
 		}
+	}
+	@Override
+	public void  registerControllers(AnimationData data)
+	{
+		data.addAnimationController(new AnimationController(this,"controller",0,this::predicate));
+	}
+	@Override
+	public AnimationFactory getFactory()
+	{
+		return this.factory;
+	}
+	private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> event)
+	{
+		if(event.isMoving())
+		{
+			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.mountain_go.walk", true));
+			return PlayState.CONTINUE;
+		}
+		event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.mountain_go.idle", true));
+		return PlayState.CONTINUE;
 	}
 }

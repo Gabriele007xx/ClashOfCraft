@@ -8522,7 +8522,7 @@
       "name": "Knockback",
       "type": "procedure",
       "sortid": 555,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "knockback",
       "metadata": {
@@ -8533,6 +8533,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "MountainGolemModel",
+      "type": "code",
+      "sortid": 556,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mountain_golem_model"
+    },
+    {
+      "name": "ModID",
+      "type": "code",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_id"
+    },
+    {
+      "name": "MountainGolemRenderer",
+      "type": "code",
+      "sortid": 558,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mountain_golem_renderer"
     }
   ],
   "variable_elements": [
@@ -8885,20 +8909,20 @@
   ],
   "language_map": {
     "en_us": {
-      "block.clashofclansweapons.rage_spell_factory_block": "Rage Spell Factory",
       "subtitles.entity.archerqueen.death": "Archer Queen dies",
+      "block.clashofclansweapons.rage_spell_factory_block": "Rage Spell Factory",
       "block.clashofclansweapons.dark_elixir_storage_level_6": "Dark Elixir Storage (Level 6)",
       "item.clashofclansweapons.pekka_armor_boots": "Pekka Boots",
-      "block.clashofclansweapons.hs_factory": "Heal Spell Factory",
-      "block.clashofclansweapons.gold_mine_up": "Gold Mine Upgrader",
       "entity.clashofclansweapons.ccfb": "CCHB",
+      "block.clashofclansweapons.gold_mine_up": "Gold Mine Upgrader",
+      "block.clashofclansweapons.hs_factory": "Heal Spell Factory",
       "item.clashofclansweapons.wizard_spawn_egg": "Wizard Spawn Egg",
       "block.clashofclansweapons.spell_factory": "Spell Factory (Level 1)",
       "block.clashofclansweapons.elixir_storage_liv_3": "Elixir Storage (Lv. 3)",
       "subtitles.item.crossbowarcherq.used": "Archer Queen crossbow used",
       "item.clashofclansweapons.mortar_lv_13": "Mortar (Lv 13)",
-      "item.clashofclansweapons.jump_area_spawn_egg": "Jump AoE Spawn Egg",
       "item.clashofclansweapons.d_cannon_spawn_egg": "Double Cannon (Lv.1) Spawn Egg",
+      "item.clashofclansweapons.jump_area_spawn_egg": "Jump AoE Spawn Egg",
       "item.clashofclansweapons.mortar_lv_10": "Mortar (Lv 10)",
       "entity.clashofclansweapons.battle_builder_hut_leveltwo": "Battle Builder Hut (Liv.2)",
       "item.clashofclansweapons.mortar_lv_12": "Mortar (Lv 12)",
@@ -9370,7 +9394,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "gecholib"
+    ],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created by Gabriele",
     "modElementsPackage": "net.mcreator.clashofclansweapons",
