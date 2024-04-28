@@ -11,6 +11,10 @@ Clash Of Craft is a mod that aims to add content from the mobileb game "Clash of
 - Minecraft Forge 1.18.2
 - Geckolib
 
+# Building
+
+Since December 2022, this project was trasfered on Intej IDEA. So ignore the mcreator.gradle, and just open it as any build.gradle project.
+
 # Contents
 
 ## Troops
