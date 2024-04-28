@@ -4,7 +4,8 @@
 
 ![Static Badge](https://img.shields.io/badge/Alpha-orange) ![Static Badge](https://img.shields.io/badge/1.18.2-blue) ![Static Badge](https://img.shields.io/badge/800%2B%20downloads-gray)
 
-Clash Of Craft is a mod that aims to add content from the mobileb game "Clash of Clans" to Minecraft.
+Clash Of Craft is a mod that aims to add content from the mobileb game "Clash of Clans" to Minecraft. The aim is to add EVERYTHING from Clash of  Clans.
+
 # Pre-requisites
 
 - Minecraft Forge 1.18.2
