@@ -325,5 +325,14 @@
         "stream": false
       }
     ]
+  },
+  "graveyard.spell.deploy": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:graveyard_spell_01",
+        "stream": false
+      }
+    ]
   }
 }

@@ -408,6 +408,11 @@ public class ClashofclansweaponsModEntities {
 	public static final RegistryObject<EntityType<HasteEntity>> HASTE = register("haste", EntityType.Builder.<HasteEntity>of(HasteEntity::new,MobCategory.MISC).sized(0.5f,0.5f).setCustomClientFactory(HasteEntity::new).setShouldReceiveVelocityUpdates(true));
 
 	public static final RegistryObject<EntityType<InfinityBottleThrowable>> INFINITY_BOTTLE = register("infinity_bottle", EntityType.Builder.<InfinityBottleThrowable>of(InfinityBottleThrowable::new, MobCategory.MISC).sized(0.5f,0.5f));
+
+	public static final RegistryObject<EntityType<GraveyardBEntity>> GRAVEYARD_B = register("graveyard_b", EntityType.Builder.<GraveyardBEntity>of(GraveyardBEntity::new, MobCategory.MISC).sized(0.5f,0.5f));
+
+	public static final RegistryObject<EntityType<GraveyardSpellEntity>> GRAVEYARD_SPELL = register("graveyard_s", EntityType.Builder.<GraveyardSpellEntity>of(GraveyardSpellEntity::new, MobCategory.MISC).sized(0.5f,0.5f));
+
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}
@@ -544,5 +549,7 @@ public class ClashofclansweaponsModEntities {
 		event.put(TH14.get(), TownHall14Entity.createAttributes().build());
 		event.put(HASTE_AREA.get(), HasteAreaEntity.createAttributes().build());
 		event.put(HASTE.get(),HasteEntity.createAttributes().build());
+		event.put(GRAVEYARD_SPELL.get(), GraveyardSpellEntity.createAttributes().build());
+		event.put(GRAVEYARD_B.get(), GraveyardBEntity.createAttributes().build());
 	}
 }

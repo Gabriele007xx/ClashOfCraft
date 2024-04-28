@@ -83,6 +83,7 @@ public class ClashofclansweaponsModSounds {
 				new SoundEvent(new ResourceLocation("clashofclansweapons", "grandwarden.a")));
 		REGISTRY.put(new ResourceLocation("clashofclansweapons", "archerqueen.a"),
 				new SoundEvent(new ResourceLocation("clashofclansweapons", "archerqueen.a")));
+		REGISTRY.put(new ResourceLocation("clashofclansweapons", "graveyard.spell.deploy"), new SoundEvent(new ResourceLocation("clashofclansweapons", "graveyard.spell.deploy")));
 	}
 
 	@SubscribeEvent

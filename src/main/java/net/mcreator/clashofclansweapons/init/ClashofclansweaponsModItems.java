@@ -403,6 +403,8 @@ public class ClashofclansweaponsModItems {
 	public static final RegistryObject<Item> HASTE_ITEM = REGISTRY.register("haste_item", ()->new HasteItemItem());
 
 	public static final RegistryObject<Item> INFINITY_BOTTLE = REGISTRY.register("infinity_bottle", ()-> new InfinityBottleItem());
+
+	public static final RegistryObject<Item> GRAVEYARD_INC = REGISTRY.register("graveyard_spell", ()->new GraveyardBottle());
  	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
 	}

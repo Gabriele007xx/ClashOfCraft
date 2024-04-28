@@ -105,5 +105,7 @@ public class ClashofclansweaponsModEntityRenderers {
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.EARTHQUAKE_D.get(), EarthquakeDRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.FIRE_ARROW.get(), FireArrowRenderer::new);
 		//event.registerEntityRenderer(ClashofclansweaponsModEntities.LOG_TRAP.get(), LogTrapRenderer::new);
+		event.registerEntityRenderer(ClashofclansweaponsModEntities.GRAVEYARD_SPELL.get(), GraveyardSRenderer::new);
+		event.registerEntityRenderer(ClashofclansweaponsModEntities.GRAVEYARD_B.get(), GraveyardBRenderer::new);
 	}
 }
