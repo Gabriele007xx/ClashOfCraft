@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "clashofclansweapons:blocks/elixirore",
+    "up": "clashofclansweapons:blocks/elixirore",
+    "north": "clashofclansweapons:blocks/elixirore",
+    "east": "clashofclansweapons:blocks/elixirore",
+    "south": "clashofclansweapons:blocks/elixirore",
+    "west": "clashofclansweapons:blocks/elixirore",
+    "particle": "clashofclansweapons:blocks/elixirore"
+  }
+}

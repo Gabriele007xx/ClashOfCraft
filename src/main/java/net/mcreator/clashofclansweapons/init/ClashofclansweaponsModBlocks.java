@@ -4,6 +4,9 @@
  */
 package net.mcreator.clashofclansweapons.init;
 
+import net.mcreator.clashofclansweapons.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,102 +17,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.clashofclansweapons.block.TownHallUpgraderBlock;
-import net.mcreator.clashofclansweapons.block.TownHallLv5Block;
-import net.mcreator.clashofclansweapons.block.TownHallLv4Block;
-import net.mcreator.clashofclansweapons.block.TownHallLv2Block;
-import net.mcreator.clashofclansweapons.block.TownHallLv1Block;
-import net.mcreator.clashofclansweapons.block.TownHallLe3Block;
-import net.mcreator.clashofclansweapons.block.SuperBarrelBlock;
-import net.mcreator.clashofclansweapons.block.SpringTrapBlock;
-import net.mcreator.clashofclansweapons.block.SpellFactoryBlock;
-import net.mcreator.clashofclansweapons.block.RageSpellFactoryBlockBlock;
-import net.mcreator.clashofclansweapons.block.JumpSpellFactoryIBlock;
-import net.mcreator.clashofclansweapons.block.HSFactoryBlock;
-import net.mcreator.clashofclansweapons.block.GrassBlockBuilderBaseBlock;
-import net.mcreator.clashofclansweapons.block.GrandWardenLv5Block;
-import net.mcreator.clashofclansweapons.block.GrandWardenBlock;
-import net.mcreator.clashofclansweapons.block.GoldMineUpBlock;
-import net.mcreator.clashofclansweapons.block.GoldMineLv2Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv275Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv250Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv225Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv2100Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv1Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv175Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv150Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv125Block;
-import net.mcreator.clashofclansweapons.block.GoldMineLv1100Block;
-import net.mcreator.clashofclansweapons.block.GiantBombBlock;
-import net.mcreator.clashofclansweapons.block.FrostSpellFactoryBuildingBlock;
-import net.mcreator.clashofclansweapons.block.ElxiirStorageUpgradeBlock;
-import net.mcreator.clashofclansweapons.block.ElixiroreBlock;
-import net.mcreator.clashofclansweapons.block.ElixirUpBlock;
-import net.mcreator.clashofclansweapons.block.ElixirStorageLv2Block;
-import net.mcreator.clashofclansweapons.block.ElixirStorageLv1Block;
-import net.mcreator.clashofclansweapons.block.ElixirStorageLiv3Block;
-import net.mcreator.clashofclansweapons.block.ElixirColletorLevel125Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel5Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel575Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel550Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel525Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel5100Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel4Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel475Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel425Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel4100Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel3Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel375Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel350Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel325Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel3100Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel2Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel275Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel250Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel225Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel2100Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel1Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel175Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel150Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollectorLevel1100Block;
-import net.mcreator.clashofclansweapons.block.ElixirCollecotrLevel450Block;
-import net.mcreator.clashofclansweapons.block.DeoreBlock;
-import net.mcreator.clashofclansweapons.block.DarkElxirDrillLv225Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirStorageLv9Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirStorageLv8Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirStorageLv7Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirStorageLevel6Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillUpgraderBlock;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv3Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv375Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv350Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv325Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv2Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv275Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv250Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv2100Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv1Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv150Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrillLv125Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrill175Block;
-import net.mcreator.clashofclansweapons.block.DarkElixirDrill1100Block;
-import net.mcreator.clashofclansweapons.block.DarkBarracksBlock;
-import net.mcreator.clashofclansweapons.block.DakElixirDrillLv3100Block;
-import net.mcreator.clashofclansweapons.block.CocGrassBlock;
-import net.mcreator.clashofclansweapons.block.ClancUpBlock;
-import net.mcreator.clashofclansweapons.block.ClanCastleLv1Block;
-import net.mcreator.clashofclansweapons.block.ClanCastleLevel2Block;
-import net.mcreator.clashofclansweapons.block.BuilderhutBlock;
-import net.mcreator.clashofclansweapons.block.BuilderElixirOreBlock;
-import net.mcreator.clashofclansweapons.block.BombBlock;
-import net.mcreator.clashofclansweapons.block.BarracksBlock;
-import net.mcreator.clashofclansweapons.block.BBElixircollectorBlock;
-import net.mcreator.clashofclansweapons.block.BBElixircollector75Block;
-import net.mcreator.clashofclansweapons.block.BBElixircollector50Block;
-import net.mcreator.clashofclansweapons.block.BBElixircollector25Block;
-import net.mcreator.clashofclansweapons.block.BBElixircollctor100Block;
-import net.mcreator.clashofclansweapons.block.BBBaracksBlock;
-import net.mcreator.clashofclansweapons.block.ArcherqueenaltarBlock;
 import net.mcreator.clashofclansweapons.ClashofclansweaponsMod;
 
 public class ClashofclansweaponsModBlocks {
@@ -263,6 +170,7 @@ public class ClashofclansweaponsModBlocks {
 			() -> new FrostSpellFactoryBuildingBlock());
 	public static final RegistryObject<Block> JUMP_SPELL_FACTORY_I = REGISTRY.register("jump_spell_factory_i", () -> new JumpSpellFactoryIBlock());
 
+	public static final RegistryObject<Block> CLAN_DECORATION = REGISTRY.register("clan_badge", ()->new DecorationClanBlock());
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
@@ -358,6 +266,7 @@ public class ClashofclansweaponsModBlocks {
 			RageSpellFactoryBlockBlock.registerRenderLayer();
 			FrostSpellFactoryBuildingBlock.registerRenderLayer();
 			JumpSpellFactoryIBlock.registerRenderLayer();
+			DecorationClanBlock.registerRenderLayer();
 		}
 	}
 }

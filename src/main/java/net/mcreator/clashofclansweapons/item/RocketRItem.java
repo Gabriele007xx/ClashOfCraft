@@ -43,7 +43,7 @@ public class RocketRItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				RocketREntity entityarrow = RocketREntity.shoot(world, entity, world.getRandom(), 4f, 1.4, 1);
+				RocketREntity entityarrow = RocketREntity.shoot(world, entity, world.getRandom(), 1f, 1.4, 1);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

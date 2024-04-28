@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/bb_elixircollector_25"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/bb_elixircollector_25",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/bb_elixircollector_25",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/bb_elixircollector_25",
+      "y": 270
+    }
+  }
+}

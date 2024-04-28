@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/upgradestation",
+  "textures": {
+    "all": "clashofclansweapons:blocks/stone",
+    "particle": "clashofclansweapons:blocks/stone",
+    "0": "clashofclansweapons:blocks/cobblestone",
+    "1": "clashofclansweapons:blocks/crafting_table_top",
+    "2": "clashofclansweapons:blocks/cobblestone",
+    "3": "clashofclansweapons:blocks/stone"
+  }
+}

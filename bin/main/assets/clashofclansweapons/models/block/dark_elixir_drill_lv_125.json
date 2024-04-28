@@ -1,0 +1,8 @@
+{
+  "parent": "clashofclansweapons:custom/darkelixirdrill",
+  "textures": {
+    "all": "clashofclansweapons:blocks/darkelixirdrill25",
+    "particle": "clashofclansweapons:blocks/darkelixirdrill25",
+    "0": "clashofclansweapons:blocks/darkelixirdrill25"
+  }
+}

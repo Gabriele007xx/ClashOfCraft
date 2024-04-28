@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/town_hall_upgrader"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/town_hall_upgrader",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/town_hall_upgrader",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/town_hall_upgrader",
+      "y": 270
+    }
+  }
+}

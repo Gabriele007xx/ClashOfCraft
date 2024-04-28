@@ -13,6 +13,9 @@
  */
 package net.mcreator.clashofclansweapons;
 
+import coc.client.renderer.*;
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -20,6 +23,7 @@ import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 
@@ -40,6 +44,9 @@ import net.mcreator.clashofclansweapons.init.ClashofclansweaponsModBiomes;
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+
+import javax.swing.text.html.parser.Entity;
 
 @Mod("clashofclansweapons")
 public class ClashofclansweaponsMod {
@@ -49,7 +56,6 @@ public class ClashofclansweaponsMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
-
 	public ClashofclansweaponsMod() {
 		ClashofclansweaponsModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -58,16 +64,27 @@ public class ClashofclansweaponsMod {
 		ClashofclansweaponsModEntities.REGISTRY.register(bus);
 		ClashofclansweaponsModBlockEntities.REGISTRY.register(bus);
 		ClashofclansweaponsModFeatures.REGISTRY.register(bus);
-
+		GeckoLib.initialize();
 		ClashofclansweaponsModMobEffects.REGISTRY.register(bus);
 		ClashofclansweaponsModPotions.REGISTRY.register(bus);
 		ClashofclansweaponsModBiomes.REGISTRY.register(bus);
 		ClashofclansweaponsModParticleTypes.REGISTRY.register(bus);
-	}
+		bus.addListener(this::clientSetup);
 
+	}
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
 		PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
+	 private void clientSetup(final FMLClientSetupEvent event) {
+	 EntityRenderers.register(ClashofclansweaponsModEntities.MOUNTAIN_GOLEM.get(), MountainGolemRenderer::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.HEALER.get(), HealerRenderer::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.CC_INCANTESIMO_2.get(), RageRenderer::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.LOG.get(), LogRenderer::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.LOG_TRAP.get(), LogTrapRenderer::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.TH14.get(),Th14Renderer::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.HASTE.get(), HasteRender::new);
+	 EntityRenderers.register(ClashofclansweaponsModEntities.HASTE_AREA.get(), HasteAreaRenderer::new);
+	 }
 }

@@ -4,6 +4,7 @@
  */
 package net.mcreator.clashofclansweapons.init;
 
+import net.mcreator.clashofclansweapons.item.*;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,102 +15,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.clashofclansweapons.item.XbowItem;
-import net.mcreator.clashofclansweapons.item.Xbow2OggettoItem;
-import net.mcreator.clashofclansweapons.item.XBowLv1ItemItem;
-import net.mcreator.clashofclansweapons.item.WizardProjectileItem;
-import net.mcreator.clashofclansweapons.item.WizardItemItem;
-import net.mcreator.clashofclansweapons.item.WitchStickSkullItem;
-import net.mcreator.clashofclansweapons.item.WitchProjectileDaItem;
-import net.mcreator.clashofclansweapons.item.WitchItemItem;
-import net.mcreator.clashofclansweapons.item.WallWreckerItemItem;
-import net.mcreator.clashofclansweapons.item.ValkyrieItemItem;
-import net.mcreator.clashofclansweapons.item.UnicornHealItem;
-import net.mcreator.clashofclansweapons.item.TubeItem;
-import net.mcreator.clashofclansweapons.item.TownHall12RWItem;
-import net.mcreator.clashofclansweapons.item.TH121ObjectItem;
-import net.mcreator.clashofclansweapons.item.SuperWitchItemItem;
-import net.mcreator.clashofclansweapons.item.SuperPotionItem;
-import net.mcreator.clashofclansweapons.item.SiegeBarracksItemItem;
-import net.mcreator.clashofclansweapons.item.ScattershotLv1ItemItem;
-import net.mcreator.clashofclansweapons.item.ScattershotLv1Item;
-import net.mcreator.clashofclansweapons.item.RocketRItem;
-import net.mcreator.clashofclansweapons.item.RockItem;
-import net.mcreator.clashofclansweapons.item.RlbItem;
-import net.mcreator.clashofclansweapons.item.PumpItem;
-import net.mcreator.clashofclansweapons.item.PekkaswordLv4Item;
-import net.mcreator.clashofclansweapons.item.PekkaswordLv3Item;
-import net.mcreator.clashofclansweapons.item.PekkaswordLv2Item;
-import net.mcreator.clashofclansweapons.item.PekkaswordLv1Item;
-import net.mcreator.clashofclansweapons.item.PekkaLv2ItemItem;
-import net.mcreator.clashofclansweapons.item.PekkaLv1ItemItem;
-import net.mcreator.clashofclansweapons.item.PekkaArmorItem;
-import net.mcreator.clashofclansweapons.item.NightWitchItemItem;
-import net.mcreator.clashofclansweapons.item.MultiCannonPItem;
-import net.mcreator.clashofclansweapons.item.MortarLv8Item;
-import net.mcreator.clashofclansweapons.item.MortarLv5Item;
-import net.mcreator.clashofclansweapons.item.MortarLv1ItemItem;
-import net.mcreator.clashofclansweapons.item.MortarLv1Item;
-import net.mcreator.clashofclansweapons.item.MortarLv14RagedItem;
-import net.mcreator.clashofclansweapons.item.MortarLv14ItemItem;
-import net.mcreator.clashofclansweapons.item.MortarLv13Item;
-import net.mcreator.clashofclansweapons.item.MortarLv12Item;
-import net.mcreator.clashofclansweapons.item.MortarLv10ItemItem;
-import net.mcreator.clashofclansweapons.item.MortarLv10Item;
-import net.mcreator.clashofclansweapons.item.LightingSpellItem;
-import net.mcreator.clashofclansweapons.item.LavaLauncherLv1Item;
-import net.mcreator.clashofclansweapons.item.ItemFItem;
-import net.mcreator.clashofclansweapons.item.InfernoTowerLv1ItemItem;
-import net.mcreator.clashofclansweapons.item.InfernoTowerItemItem;
-import net.mcreator.clashofclansweapons.item.HogRiderItemItem;
-import net.mcreator.clashofclansweapons.item.HealingPulseItem;
-import net.mcreator.clashofclansweapons.item.HammerOfHeroesItem;
-import net.mcreator.clashofclansweapons.item.HammerOfBuildingItem;
-import net.mcreator.clashofclansweapons.item.HammerItem;
-import net.mcreator.clashofclansweapons.item.GoldCoinItem;
-import net.mcreator.clashofclansweapons.item.GiantItemItem;
-import net.mcreator.clashofclansweapons.item.GiantBallsItem;
-import net.mcreator.clashofclansweapons.item.GiantArmorItem;
-import net.mcreator.clashofclansweapons.item.GearItem;
-import net.mcreator.clashofclansweapons.item.FFItem;
-import net.mcreator.clashofclansweapons.item.ElixiraArmorItem;
-import net.mcreator.clashofclansweapons.item.ElixirItem;
-import net.mcreator.clashofclansweapons.item.ElectroOwlRAGEDItem;
-import net.mcreator.clashofclansweapons.item.EarthquakeItem;
-import net.mcreator.clashofclansweapons.item.EagleArtilleryItemItem;
-import net.mcreator.clashofclansweapons.item.EaItem;
-import net.mcreator.clashofclansweapons.item.EAPItem;
-import net.mcreator.clashofclansweapons.item.DrillItem;
-import net.mcreator.clashofclansweapons.item.DragonWeaponItem;
-import net.mcreator.clashofclansweapons.item.DragonItemItem;
-import net.mcreator.clashofclansweapons.item.DoublrCannonLv1IItem;
-import net.mcreator.clashofclansweapons.item.DoubleCannonShotgunItem;
-import net.mcreator.clashofclansweapons.item.DarkElixirItem;
-import net.mcreator.clashofclansweapons.item.ClanCapitalRageSpellItem;
-import net.mcreator.clashofclansweapons.item.ClanCapitalJumpSpellItem;
-import net.mcreator.clashofclansweapons.item.ClanCapitalHealSpellItem;
-import net.mcreator.clashofclansweapons.item.ClanCapitalFrostSpellItem;
-import net.mcreator.clashofclansweapons.item.CannonLv1ProjectileItem;
-import net.mcreator.clashofclansweapons.item.CannonLv1ItemItem;
-import net.mcreator.clashofclansweapons.item.CannonCartLv1RangedItemItem;
-import net.mcreator.clashofclansweapons.item.CannonCartItemItem;
-import net.mcreator.clashofclansweapons.item.CC1Item;
-import net.mcreator.clashofclansweapons.item.BuilderElixirItem;
-import net.mcreator.clashofclansweapons.item.BookOfBuildingItem;
-import net.mcreator.clashofclansweapons.item.BattleMachineLv20ItemItem;
-import net.mcreator.clashofclansweapons.item.BattleMachineLv10ItemItem;
-import net.mcreator.clashofclansweapons.item.BattleMachineItemItem;
-import net.mcreator.clashofclansweapons.item.BattleBuilderHutRagedItem;
-import net.mcreator.clashofclansweapons.item.BattleBuilderHutProjectileItem;
-import net.mcreator.clashofclansweapons.item.BattleBuilderHutLv2Item;
-import net.mcreator.clashofclansweapons.item.BarbarianSwordLv7Item;
-import net.mcreator.clashofclansweapons.item.BarbarianSwordLv6Item;
-import net.mcreator.clashofclansweapons.item.BarbarianSwordLv5Item;
-import net.mcreator.clashofclansweapons.item.BarbarianSwordLv4Item;
-import net.mcreator.clashofclansweapons.item.BarbarianSwordLv3Item;
-import net.mcreator.clashofclansweapons.item.AirdefenceRangedItem;
-import net.mcreator.clashofclansweapons.item.AirDefenceItemItem;
-import net.mcreator.clashofclansweapons.item.AirBombsEItem;
 import net.mcreator.clashofclansweapons.ClashofclansweaponsMod;
 
 public class ClashofclansweaponsModItems {
@@ -479,8 +384,26 @@ public class ClashofclansweaponsModItems {
 	public static final RegistryObject<Item> EARTHQUAKE = REGISTRY.register("earthquake", () -> new EarthquakeItem());
 	public static final RegistryObject<Item> GIANT_ARMOR_CHESTPLATE = REGISTRY.register("giant_armor_chestplate",
 			() -> new GiantArmorItem.Chestplate());
+	public static final RegistryObject<Item> HEALER = REGISTRY.register("healer_spawn_egg",
+			() -> new ForgeSpawnEggItem(ClashofclansweaponsModEntities.HEALER, -16777215, -13551133,
+					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
-	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+	public static final RegistryObject<Item> HEALER_ITEM = REGISTRY.register("healer_item", ()->new HealerItemItem());
+
+	public static final RegistryObject<Item> MOUNTAIN_GOLEM_ITEM = REGISTRY.register("mountain_golem_item", ()->new MountainGolemItemItem());
+
+	public static final RegistryObject<Item> FLYING_FORTRESS_ITEM = REGISTRY.register("flying_fortress_item", ()->new FlyingFortressItemItem());
+
+	public static final RegistryObject<Item> FIRE_ARROW_ITEM = REGISTRY.register("fire_arrow_item", ()->new FireArrowItem(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).stacksTo(64)));
+
+	public static final RegistryObject<Item> LOGTRAP_ITEM = REGISTRY.register("logtrap_item", ()->new LogTrapItem());
+
+	public static final RegistryObject<Item> TH_14_ITEM = REGISTRY.register("th14_i", ()-> new Th14Item());
+
+	public static final RegistryObject<Item> HASTE_ITEM = REGISTRY.register("haste_item", ()->new HasteItemItem());
+
+	public static final RegistryObject<Item> INFINITY_BOTTLE = REGISTRY.register("infinity_bottle", ()-> new InfinityBottleItem());
+ 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

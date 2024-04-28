@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/barrackelixir",
+  "textures": {
+    "all": "clashofclansweapons:blocks/iron_sword",
+    "particle": "clashofclansweapons:blocks/iron_sword",
+    "0": "clashofclansweapons:blocks/stone",
+    "1": "clashofclansweapons:blocks/crimson_planks",
+    "2": "clashofclansweapons:blocks/oak_planks",
+    "3": "clashofclansweapons:blocks/barrack"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/elixir_storage_liv_3"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/elixir_storage_liv_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/elixir_storage_liv_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/elixir_storage_liv_3",
+      "y": 270
+    }
+  }
+}

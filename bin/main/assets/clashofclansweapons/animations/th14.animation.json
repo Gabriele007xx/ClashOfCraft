@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.th14.idle": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"gigaweapon": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-90, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [0, 3.25, -13.83]
+						},
+						"0.2083": {
+							"vector": [0, 14.13, -36.58]
+						},
+						"0.3333": {
+							"vector": [0, 33, -55.33]
+						},
+						"0.5": {
+							"vector": [0, 63, -65]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

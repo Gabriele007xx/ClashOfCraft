@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/gold_mine_up"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/gold_mine_up",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/gold_mine_up",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/gold_mine_up",
+      "y": 270
+    }
+  }
+}

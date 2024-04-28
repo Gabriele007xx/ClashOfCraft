@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/clanc_up"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/clanc_up",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/clanc_up",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/clanc_up",
+      "y": 270
+    }
+  }
+}

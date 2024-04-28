@@ -4,6 +4,7 @@
  */
 package net.mcreator.clashofclansweapons.init;
 
+import net.mcreator.clashofclansweapons.client.renderer.*;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -11,69 +12,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
-import net.mcreator.clashofclansweapons.client.renderer.XbowLvTwoniRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.XbowLv1Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.WizardRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.WitchSkeletonRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.WitchCocRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.WallWreckerRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.ValkiryeRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.UnicornRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.TownHallLv12Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.SuperWitchRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.SiegeBarracksRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.ScattershotRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.ScattershotLv1Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.RocketRRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.RocketArtileryRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.Pekkalevel2Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.Pekkalevel1Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.NightWitchRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.NightWitchBatRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.MultiCannonRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.MountainGolemRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.MortarLv1EntityRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.MortarLv14Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.MortarLv10ERenderer;
-import net.mcreator.clashofclansweapons.client.renderer.MegatroopRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.LASSIRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.JumpEntityRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.JumpAreaRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.InfernoTowerRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.HogRiderRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.GiantCocRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.GiantCannonBBRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.GiantBallsRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.FlameFingerWeaponRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.FireSpiritRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.FFRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.ElectroOwlRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.EarthquakeDRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.EagleArtilleryRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.DragonRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.DoubleCannonShotgunRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.DCannonRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.CcfbRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.CannonLv1Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.CannonCartStillRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.CannonCartRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.CCrageRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.CCincantesimo0Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.CCIncantesimo2Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.CCIncantesimo1Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.CCHBRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.BuilderRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.BigBoyRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.BattleMachineLv20Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.BattleMachineLv10Renderer;
-import net.mcreator.clashofclansweapons.client.renderer.BattleBuilderRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.BattleBuilderHutLeveltwoRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.BMachineRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.ArcherQueenRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.AirDefenceRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.AirBBRenderer;
-import net.mcreator.clashofclansweapons.client.renderer.AirBBBRenderer;
-import net.mcreator.clashofclansweapons.MountainGolemRenderer;
+//import net.mcreator.clashofclansweapons.client.renderer.MountainGolemRenderer;
+
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClashofclansweaponsModEntityRenderers {
@@ -146,7 +86,7 @@ public class ClashofclansweaponsModEntityRenderers {
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.MULTI_CANNON.get(), MultiCannonRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.ROCKET_R.get(), RocketRRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.ROCKET_ARTILERY.get(), RocketArtileryRenderer::new);
-		event.registerEntityRenderer(ClashofclansweaponsModEntities.MOUNTAIN_GOLEM.get(), MountainGolemRenderer::new);
+		//event.registerEntityRenderer(ClashofclansweaponsModEntities.MOUNTAIN_GOLEM.get(), MountainGolemRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.BATTLE_BUILDER.get(), BattleBuilderRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.CC_1.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.MEGATROOP.get(), MegatroopRenderer::new);
@@ -158,10 +98,12 @@ public class ClashofclansweaponsModEntityRenderers {
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.CCHB.get(), CCHBRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.CC_INCANTESIMO_1.get(), CCIncantesimo1Renderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.CCFB.get(), CcfbRenderer::new);
-		event.registerEntityRenderer(ClashofclansweaponsModEntities.CC_INCANTESIMO_2.get(), CCIncantesimo2Renderer::new);
+		//event.registerEntityRenderer(ClashofclansweaponsModEntities.CC_INCANTESIMO_2.get(), CCIncantesimo2Renderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.C_CRAGE.get(), CCrageRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.JUMP_AREA.get(), JumpAreaRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.JUMP_ENTITY.get(), JumpEntityRenderer::new);
 		event.registerEntityRenderer(ClashofclansweaponsModEntities.EARTHQUAKE_D.get(), EarthquakeDRenderer::new);
+		event.registerEntityRenderer(ClashofclansweaponsModEntities.FIRE_ARROW.get(), FireArrowRenderer::new);
+		//event.registerEntityRenderer(ClashofclansweaponsModEntities.LOG_TRAP.get(), LogTrapRenderer::new);
 	}
 }

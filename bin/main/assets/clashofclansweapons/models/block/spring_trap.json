@@ -1,0 +1,9 @@
+{
+  "parent": "clashofclansweapons:custom/springtrap",
+  "textures": {
+    "all": "clashofclansweapons:blocks/oak_planks",
+    "particle": "clashofclansweapons:blocks/oak_planks",
+    "0": "clashofclansweapons:blocks/oak_planks",
+    "1": "clashofclansweapons:blocks/stone"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "clashofclansweapons:custom/clancastleleveltwo",
+  "textures": {
+    "all": "clashofclansweapons:blocks/clan_castle_2_3",
+    "particle": "clashofclansweapons:blocks/clan_castle_2_3",
+    "0": "clashofclansweapons:blocks/oak_planks",
+    "1": "clashofclansweapons:blocks/stone",
+    "2": "clashofclansweapons:blocks/clan_castle_2_3"
+  }
+}

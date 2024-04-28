@@ -1,0 +1,10 @@
+{
+  "parent": "clashofclansweapons:custom/elixirextratorlvone",
+  "textures": {
+    "all": "clashofclansweapons:blocks/elixircollector25",
+    "particle": "clashofclansweapons:blocks/elixircollector25",
+    "0": "clashofclansweapons:blocks/ec",
+    "1": "clashofclansweapons:blocks/elixircollector25",
+    "missing": "clashofclansweapons:blocks/elixircollector25"
+  }
+}

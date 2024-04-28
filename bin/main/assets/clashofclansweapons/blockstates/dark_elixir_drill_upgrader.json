@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/dark_elixir_drill_upgrader"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/dark_elixir_drill_upgrader",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/dark_elixir_drill_upgrader",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/dark_elixir_drill_upgrader",
+      "y": 270
+    }
+  }
+}

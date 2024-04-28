@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/elixir_collector_level_350"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/elixir_collector_level_350",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/elixir_collector_level_350",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/elixir_collector_level_350",
+      "y": 270
+    }
+  }
+}

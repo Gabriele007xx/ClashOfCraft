@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "clashofclansweapons:grass_block_builder_base",
+    "clashofclansweapons:coc_grass",
+    "minecraft:dirt"
+  ]
+}

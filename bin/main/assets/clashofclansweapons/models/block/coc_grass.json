@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "clashofclansweapons:blocks/cocgrass",
+    "up": "clashofclansweapons:blocks/cocgrass",
+    "north": "clashofclansweapons:blocks/cocgrass",
+    "east": "clashofclansweapons:blocks/cocgrass",
+    "south": "clashofclansweapons:blocks/cocgrass",
+    "west": "clashofclansweapons:blocks/cocgrass",
+    "particle": "clashofclansweapons:blocks/cocgrass"
+  }
+}

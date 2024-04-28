@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/builderhut",
+  "textures": {
+    "all": "clashofclansweapons:blocks/stone",
+    "particle": "clashofclansweapons:blocks/stone",
+    "0": "clashofclansweapons:blocks/spruce_planks",
+    "1": "clashofclansweapons:blocks/stone",
+    "2": "clashofclansweapons:blocks/dark_oak_planks",
+    "3": "clashofclansweapons:blocks/acacia_planks"
+  }
+}

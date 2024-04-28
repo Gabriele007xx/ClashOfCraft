@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.blastbow",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-32, 0, -32], "size": [64, 30, 64], "uv": [0, 0]},
+						{"origin": [-3, 31, -9], "size": [8, 14, 8], "uv": [0, 17]},
+						{"origin": [-3, 45, -9], "size": [8, 8, 38], "uv": [146, 104]},
+						{"origin": [5, 53, -9], "size": [8, 8, 38], "uv": [92, 142]},
+						{"origin": [-11, 53, -9], "size": [8, 8, 38], "uv": [0, 142]},
+						{"origin": [-15, 53, -1], "size": [8, 8, 38], "pivot": [0, -2, 0], "rotation": [0, -35, 0], "uv": [92, 96]},
+						{"origin": [8, 53, -1], "size": [8, 8, 38], "pivot": [0, -2, 0], "rotation": [0, 35, 0], "uv": [0, 96]},
+						{"origin": [13, 58, 24], "size": [15, 2, 2], "uv": [24, 21]},
+						{"origin": [-26, 58, 24], "size": [15, 2, 2], "uv": [24, 17]},
+						{"origin": [-6, 52, 29], "size": [15, 7, 10], "pivot": [0, -2, 0], "rotation": [2.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-1, 54, -18], "size": [5, 5, 28], "uv": [54, 96]},
+						{"origin": [-5, 54, -22], "size": [14, 4, 7], "uv": [0, 39]}
+					]
+				}
+			]
+		}
+	]
+}

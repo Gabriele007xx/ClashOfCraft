@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.th14",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 6.5,
+				"visible_bounds_offset": [0, 2.75, 0]
+			},
+			"bones": [
+				{
+					"name": "gigaweapon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 56, -10], "size": [16, 16, 16], "uv": [0, 158]}
+					]
+				},
+				{
+					"name": "th",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-33, 0, -32], "size": [75, 1, 1], "uv": [177, 64]},
+						{"origin": [-33, 0, 31], "size": [75, 1, 1], "uv": [177, 62]},
+						{"origin": [41, 0, -31], "size": [1, 1, 62], "uv": [164, 159]},
+						{"origin": [-33, 0, -31], "size": [1, 1, 62], "uv": [100, 158]},
+						{"origin": [-32, 0, -31], "size": [73, 0, 62], "uv": [0, 0]},
+						{"origin": [-30, 0, -27], "size": [62, 43, 53], "uv": [0, 62]},
+						{"origin": [20, 43, -33], "size": [18, 9, 64], "uv": [0, 158]},
+						{"origin": [-32, 43, -33], "size": [18, 9, 20], "uv": [208, 29]},
+						{"origin": [-32, 43, 12], "size": [18, 9, 20], "uv": [208, 0]},
+						{"origin": [-8, 43, -12], "size": [22, 9, 21], "uv": [177, 66]},
+						{"origin": [-18, 43, -12], "size": [9, 9, 21], "uv": [0, 0]},
+						{"origin": [15, 43, -12], "size": [5, 9, 21], "uv": [0, 30]},
+						{"origin": [30, 1, -7], "size": [16, 8, 16], "uv": [0, 190]},
+						{"origin": [32, 9, -7], "size": [8, 8, 16], "uv": [0, 60]}
+					]
+				}
+			]
+		}
+	]
+}

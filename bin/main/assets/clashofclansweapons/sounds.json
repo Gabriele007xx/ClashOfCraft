@@ -1,0 +1,329 @@
+{
+  "xbow.item.used": {
+    "category": "ambient",
+    "subtitle": "subtitles.xbow.item.used",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:xbow",
+        "stream": false
+      }
+    ]
+  },
+  "mortar.item.shoots": {
+    "category": "ambient",
+    "subtitle": "subtitles.mortar.item.shoots",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:mortar",
+        "stream": false
+      }
+    ]
+  },
+  "mortal.shell.hits": {
+    "category": "ambient",
+    "subtitle": "subtitles.mortal.shell.hits",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:bullet_lands",
+        "stream": false
+      }
+    ]
+  },
+  "pekkasword.hits.entity": {
+    "category": "ambient",
+    "subtitle": "subtitles.pekkasword.hits.entity",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:pekkahitv1",
+        "stream": false
+      },
+      {
+        "name": "clashofclansweapons:pekkahitv2",
+        "stream": false
+      }
+    ]
+  },
+  "empty.placeholder.sound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:empty",
+        "stream": false
+      }
+    ]
+  },
+  "pekka.entity.diez": {
+    "category": "ambient",
+    "subtitle": "subtitles.pekka.entity.diez",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:pekka_entity_die",
+        "stream": false
+      }
+    ]
+  },
+  "entity.archerqueen.death": {
+    "category": "voice",
+    "subtitle": "subtitles.entity.archerqueen.death",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:aqdies",
+        "stream": false
+      }
+    ]
+  },
+  "enetity.archerqueen.live": {
+    "category": "voice",
+    "subtitle": "subtitles.enetity.archerqueen.live",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:aqlife1",
+        "stream": false
+      },
+      {
+        "name": "clashofclansweapons:aqlife2",
+        "stream": false
+      }
+    ]
+  },
+  "item.crossbowarcherq.used": {
+    "category": "ambient",
+    "subtitle": "subtitles.item.crossbowarcherq.used",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:aqshhot",
+        "stream": false
+      }
+    ]
+  },
+  "ea.projectuile.hit": {
+    "category": "ambient",
+    "subtitle": "subtitles.ea.projectuile.hit",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:shooting",
+        "stream": false
+      }
+    ]
+  },
+  "entity.ea.dies": {
+    "category": "voice",
+    "subtitle": "subtitles.entity.ea.dies",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:diesea",
+        "stream": false
+      }
+    ]
+  },
+  "ea.projectuile.land": {
+    "category": "hostile",
+    "subtitle": "subtitles.ea.projectuile.land",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:landed",
+        "stream": false
+      }
+    ]
+  },
+  "ite.doublecannon.shoot": {
+    "category": "ambient",
+    "subtitle": "subtitles.ite.doublecannon.shoot",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:doublecannonshoot",
+        "stream": false
+      }
+    ]
+  },
+  "placeholder.empty.ogg": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:empty",
+        "stream": false
+      }
+    ]
+  },
+  "elixir.pickup.sfx": {
+    "category": "ambient",
+    "subtitle": "subtitles.elixir.pickup.sfx",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:elixir",
+        "stream": false
+      }
+    ]
+  },
+  "cannon.fire.entity": {
+    "category": "ambient",
+    "subtitle": "subtitles.cannon.fire.entity",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:cannon_fire",
+        "stream": false
+      }
+    ]
+  },
+  "healing.sound.sfx": {
+    "category": "ambient",
+    "subtitle": "subtitles.healing.sound.sfx",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:healer_hit2",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.builderbase.music": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:backgroundmusic",
+        "stream": false
+      }
+    ]
+  },
+  "darkelixir.collect.item": {
+    "category": "ambient",
+    "subtitle": "subtitles.darkelixir.collect.item",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:dark_elixir_collect",
+        "stream": false
+      }
+    ]
+  },
+  "cannoncart.fire.sound": {
+    "category": "ambient",
+    "subtitle": "subtitles.cannoncart.fire.sound",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:cannon_fire3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.witch.die": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.witch.die",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:witch_die_01",
+        "stream": false
+      }
+    ]
+  },
+  "entity.witch.lives": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.witch.lives",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:witch_deploy_01",
+        "stream": false
+      }
+    ]
+  },
+  "entity.witch.summon": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.witch.summon",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:witch_summon_01",
+        "stream": false
+      }
+    ]
+  },
+  "entity.aidefence.fireworkssfx": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.aidefence.fireworkssfx",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:air_defense_shooting",
+        "stream": false
+      }
+    ]
+  },
+  "entity.airdefence.hits": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.airdefence.hits",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:air_defense_hits",
+        "stream": false
+      }
+    ]
+  },
+  "clan.castle.defendes": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:clash_of_clans_clan_castle_music",
+        "stream": false
+      }
+    ]
+  },
+  "gold.pickup.": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:clash_of_clans-_old_gold_collect_sfx",
+        "stream": false
+      }
+    ]
+  },
+  "building.effect": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:building_finished_01",
+        "stream": false
+      }
+    ]
+  },
+  "building.upgrade": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:building_construct_07",
+        "stream": false
+      }
+    ]
+  },
+  "coc.hb": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:clash_of_clans_siege_barracks_music",
+        "stream": false
+      }
+    ]
+  },
+  "grandwarden.targethit": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:grand_warden_attack_01",
+        "stream": false
+      }
+    ]
+  },
+  "grandwarden.a": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:grand_warden_shield_01",
+        "stream": false
+      }
+    ]
+  },
+  "archerqueen.a": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "clashofclansweapons:archer_invis_01v2",
+        "stream": false
+      }
+    ]
+  }
+}

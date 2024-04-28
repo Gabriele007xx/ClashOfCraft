@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/giant_bomb"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/giant_bomb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/giant_bomb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/giant_bomb",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/frost_spell_factory_building"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/frost_spell_factory_building",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/frost_spell_factory_building",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/frost_spell_factory_building",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:oak_sign"
+    },
+    {
+      "item": "clashofclansweapons:elixir"
+    }
+  ],
+  "result": {
+    "item": "clashofclansweapons:elixir_up",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "clashofclansweapons:custom/elixirstorage2",
+  "textures": {
+    "all": "clashofclansweapons:blocks/glass",
+    "particle": "clashofclansweapons:blocks/glass",
+    "0": "clashofclansweapons:blocks/oak_planks",
+    "1": "clashofclansweapons:blocks/glass"
+  }
+}

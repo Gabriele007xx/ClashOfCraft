@@ -18,6 +18,8 @@ public class ClashofclansweaponsModTabs {
 	public static CreativeModeTab TAB_SPELLS;
 	public static CreativeModeTab TAB_UPGRADERS;
 
+	public static CreativeModeTab TAB_CUSTOM;
+
 	public static void load() {
 		TAB_BUILDINGS = new CreativeModeTab("tabbuildings") {
 			@Override
@@ -78,6 +80,17 @@ public class ClashofclansweaponsModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(ClashofclansweaponsModBlocks.ELIXIR_UP.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_CUSTOM = new CreativeModeTab("tabcustom") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(ClashofclansweaponsModItems.HASTE_ITEM.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

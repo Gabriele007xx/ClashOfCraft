@@ -1,0 +1,9 @@
+{
+  "parent": "clashofclansweapons:custom/spellfactory",
+  "textures": {
+    "all": "clashofclansweapons:blocks/stone",
+    "particle": "clashofclansweapons:blocks/stone",
+    "0": "clashofclansweapons:blocks/stone",
+    "1": "clashofclansweapons:blocks/oak_planks"
+  }
+}

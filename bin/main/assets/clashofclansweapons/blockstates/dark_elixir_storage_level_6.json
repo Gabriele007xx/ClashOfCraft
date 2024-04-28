@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/dark_elixir_storage_level_6"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/dark_elixir_storage_level_6",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/dark_elixir_storage_level_6",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/dark_elixir_storage_level_6",
+      "y": 270
+    }
+  }
+}

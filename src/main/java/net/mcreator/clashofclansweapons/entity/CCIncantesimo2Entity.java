@@ -29,11 +29,18 @@ import net.mcreator.clashofclansweapons.init.ClashofclansweaponsModEntities;
 import java.util.List;
 
 import coc.troop.clancapital.ClanCapitalTroopBase;
+import software.bernie.geckolib3.core.IAnimatable;
+import software.bernie.geckolib3.core.PlayState;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.controller.AnimationController;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.manager.AnimationFactory;
 
-public class CCIncantesimo2Entity extends PathfinderMob {
+public class CCIncantesimo2Entity extends PathfinderMob implements IAnimatable {
 	private final int MAX_AGE = 48000;
 	private int CURRENT_AGE = 0;
-
+	private AnimationFactory factory = new AnimationFactory(this);
 	public CCIncantesimo2Entity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ClashofclansweaponsModEntities.CC_INCANTESIMO_2.get(), world);
 	}
@@ -122,5 +129,19 @@ public class CCIncantesimo2Entity extends PathfinderMob {
 		if (CURRENT_AGE >= MAX_AGE) {
 			this.discard();
 		}
+	}
+	private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> event)
+	{
+		event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.rage.idle", true));
+		return PlayState.CONTINUE;
+	}
+	@Override
+	public void registerControllers(AnimationData data) {
+		data.addAnimationController(new AnimationController(this,"controller",0,this::predicate));
+	}
+
+	@Override
+	public AnimationFactory getFactory() {
+		return this.factory;
 	}
 }

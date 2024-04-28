@@ -1,0 +1,11 @@
+{
+  "parent": "clashofclansweapons:custom/townhall1",
+  "textures": {
+    "all": "clashofclansweapons:blocks/oak_planks",
+    "particle": "clashofclansweapons:blocks/oak_planks",
+    "0": "clashofclansweapons:blocks/dark_oak_planks",
+    "1": "clashofclansweapons:blocks/oak_planks",
+    "2": "clashofclansweapons:blocks/stone",
+    "missing": "clashofclansweapons:blocks/stone"
+  }
+}

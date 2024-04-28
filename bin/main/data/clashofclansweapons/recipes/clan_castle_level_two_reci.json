@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "clashofclansweapons:clan_castle_lv_1"
+  },
+  "addition": {
+    "item": "clashofclansweapons:hammer_of_building"
+  },
+  "result": {
+    "item": "clashofclansweapons:clan_castle_level_2"
+  }
+}

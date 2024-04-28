@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.logtrap",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "log_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -6], "size": [16, 5, 6], "uv": [0, 0]},
+						{"origin": [-1, 1, 0], "size": [2, 2, 2], "uv": [20, 15]},
+						{"origin": [3, 1, -8], "size": [2, 2, 2], "uv": [8, 15]},
+						{"origin": [-6, 1, -8], "size": [2, 2, 2], "uv": [14, 17]},
+						{"origin": [-1, 1, -8], "size": [2, 2, 2], "uv": [0, 19]},
+						{"origin": [3, 5, -4], "size": [2, 2, 2], "uv": [14, 13]},
+						{"origin": [-6, 5, -4], "size": [2, 2, 2], "uv": [0, 15]},
+						{"origin": [3, -2, -4], "size": [2, 2, 2], "uv": [0, 11]},
+						{"origin": [-6, -2, -4], "size": [2, 2, 2], "uv": [8, 11]},
+						{"origin": [-6, 1, 0], "size": [2, 2, 2], "uv": [8, 19]},
+						{"origin": [3, 1, 0], "size": [2, 2, 2], "uv": [20, 11]},
+						{"origin": [-8, 0, 3], "size": [16, 2, 2], "uv": [5, 6]}
+					]
+				}
+			]
+		}
+	]
+}

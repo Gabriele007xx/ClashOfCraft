@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/grand_warden"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/grand_warden",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/grand_warden",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/grand_warden",
+      "y": 270
+    }
+  }
+}

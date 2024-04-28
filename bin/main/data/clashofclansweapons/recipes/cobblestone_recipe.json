@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "clashofclansweapons:rock"
+    },
+    "3": {
+      "item": "clashofclansweapons:rock"
+    },
+    "4": {
+      "item": "clashofclansweapons:rock"
+    },
+    "5": {
+      "item": "clashofclansweapons:rock"
+    },
+    "7": {
+      "item": "clashofclansweapons:rock"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 1
+  }
+}

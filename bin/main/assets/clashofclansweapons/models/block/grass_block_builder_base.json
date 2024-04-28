@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "clashofclansweapons:blocks/dirt",
+    "up": "clashofclansweapons:blocks/builder_base_grass_block_top",
+    "north": "clashofclansweapons:blocks/builderbase_grass_block_side",
+    "east": "clashofclansweapons:blocks/builderbase_grass_block_side",
+    "south": "clashofclansweapons:blocks/builderbase_grass_block_side",
+    "west": "clashofclansweapons:blocks/builderbase_grass_block_side",
+    "particle": "clashofclansweapons:blocks/dirt"
+  }
+}

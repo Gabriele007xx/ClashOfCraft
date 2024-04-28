@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/elxiir_storage_upgrade"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/elxiir_storage_upgrade",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/elxiir_storage_upgrade",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/elxiir_storage_upgrade",
+      "y": 270
+    }
+  }
+}

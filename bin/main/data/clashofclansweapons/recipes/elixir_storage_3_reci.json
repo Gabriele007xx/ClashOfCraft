@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "clashofclansweapons:elixir_storage_lv_2"
+  },
+  "addition": {
+    "item": "clashofclansweapons:hammer_of_building"
+  },
+  "result": {
+    "item": "clashofclansweapons:elixir_storage_liv_3"
+  }
+}

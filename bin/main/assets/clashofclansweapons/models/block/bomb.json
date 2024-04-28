@@ -1,0 +1,9 @@
+{
+  "parent": "clashofclansweapons:custom/bomb",
+  "textures": {
+    "all": "clashofclansweapons:blocks/polished_deepslate",
+    "particle": "clashofclansweapons:blocks/polished_deepslate",
+    "3": "clashofclansweapons:blocks/oak_planks",
+    "4": "clashofclansweapons:blocks/polished_deepslate"
+  }
+}

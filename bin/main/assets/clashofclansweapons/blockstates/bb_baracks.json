@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "clashofclansweapons:block/bb_baracks"
+    },
+    "facing=east": {
+      "model": "clashofclansweapons:block/bb_baracks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "clashofclansweapons:block/bb_baracks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "clashofclansweapons:block/bb_baracks",
+      "y": 270
+    }
+  }
+}

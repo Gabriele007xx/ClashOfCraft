@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "clashofclansweapons:elixir"
+    },
+    "4": {
+      "item": "minecraft:crossbow"
+    },
+    "5": {
+      "item": "minecraft:composter"
+    },
+    "6": {
+      "tag": "minecraft:planks"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    },
+    "8": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "clashofclansweapons:x_bow_lv_1_item",
+    "count": 1
+  }
+}

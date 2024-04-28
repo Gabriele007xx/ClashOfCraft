@@ -4,6 +4,7 @@
  */
 package net.mcreator.clashofclansweapons.init;
 
+import net.mcreator.clashofclansweapons.entity.*;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,90 +17,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.clashofclansweapons.entity.XbowLvTwoniEntity;
-import net.mcreator.clashofclansweapons.entity.XbowLv1Entity;
-import net.mcreator.clashofclansweapons.entity.XbowEntity;
-import net.mcreator.clashofclansweapons.entity.WizardProjectileEntity;
-import net.mcreator.clashofclansweapons.entity.WizardEntity;
-import net.mcreator.clashofclansweapons.entity.WitchStickSkullEntity;
-import net.mcreator.clashofclansweapons.entity.WitchSkeletonEntity;
-import net.mcreator.clashofclansweapons.entity.WitchCocEntity;
-import net.mcreator.clashofclansweapons.entity.WallWreckerEntity;
-import net.mcreator.clashofclansweapons.entity.ValkiryeEntity;
-import net.mcreator.clashofclansweapons.entity.UnicornHealEntity;
-import net.mcreator.clashofclansweapons.entity.UnicornEntity;
-import net.mcreator.clashofclansweapons.entity.TownHallLv12Entity;
-import net.mcreator.clashofclansweapons.entity.TownHall12RWEntity;
-import net.mcreator.clashofclansweapons.entity.SuperWitchEntity;
-import net.mcreator.clashofclansweapons.entity.SiegeBarracksEntity;
-import net.mcreator.clashofclansweapons.entity.ScattershotLv1Entity;
-import net.mcreator.clashofclansweapons.entity.ScattershotEntity;
-import net.mcreator.clashofclansweapons.entity.RocketREntity;
-import net.mcreator.clashofclansweapons.entity.RocketArtileryEntity;
-import net.mcreator.clashofclansweapons.entity.Pekkalevel2Entity;
-import net.mcreator.clashofclansweapons.entity.Pekkalevel1Entity;
-import net.mcreator.clashofclansweapons.entity.NightWitchEntity;
-import net.mcreator.clashofclansweapons.entity.NightWitchBatEntity;
-import net.mcreator.clashofclansweapons.entity.MultiCannonEntity;
-import net.mcreator.clashofclansweapons.entity.MountainGolemEntity;
-import net.mcreator.clashofclansweapons.entity.MortarLv8Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv5Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv1EntityEntity;
-import net.mcreator.clashofclansweapons.entity.MortarLv1Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv14RagedEntity;
-import net.mcreator.clashofclansweapons.entity.MortarLv14Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv13Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv12Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv10Entity;
-import net.mcreator.clashofclansweapons.entity.MortarLv10EEntity;
-import net.mcreator.clashofclansweapons.entity.MegatroopEntity;
-import net.mcreator.clashofclansweapons.entity.LavaLauncherLv1Entity;
-import net.mcreator.clashofclansweapons.entity.LASSIEntity;
-import net.mcreator.clashofclansweapons.entity.JumpEntityEntity;
-import net.mcreator.clashofclansweapons.entity.JumpAreaEntity;
-import net.mcreator.clashofclansweapons.entity.InfernoTowerLv1ItemEntity;
-import net.mcreator.clashofclansweapons.entity.InfernoTowerEntity;
-import net.mcreator.clashofclansweapons.entity.HogRiderEntity;
-import net.mcreator.clashofclansweapons.entity.GiantCocEntity;
-import net.mcreator.clashofclansweapons.entity.GiantCannonBBEntity;
-import net.mcreator.clashofclansweapons.entity.GiantBallsEntity;
-import net.mcreator.clashofclansweapons.entity.FlameFingerWeaponEntity;
-import net.mcreator.clashofclansweapons.entity.FireSpiritEntity;
-import net.mcreator.clashofclansweapons.entity.FFEntity;
-import net.mcreator.clashofclansweapons.entity.ElectroOwlRAGEDEntity;
-import net.mcreator.clashofclansweapons.entity.ElectroOwlEntity;
-import net.mcreator.clashofclansweapons.entity.EarthquakeDEntity;
-import net.mcreator.clashofclansweapons.entity.EagleArtilleryEntity;
-import net.mcreator.clashofclansweapons.entity.EaEntity;
-import net.mcreator.clashofclansweapons.entity.DragonWeaponEntity;
-import net.mcreator.clashofclansweapons.entity.DragonEntity;
-import net.mcreator.clashofclansweapons.entity.DoubleCannonShotgunEntity;
-import net.mcreator.clashofclansweapons.entity.DCannonEntity;
-import net.mcreator.clashofclansweapons.entity.CcfbEntity;
-import net.mcreator.clashofclansweapons.entity.CannonLv1ProjectileEntity;
-import net.mcreator.clashofclansweapons.entity.CannonLv1Entity;
-import net.mcreator.clashofclansweapons.entity.CannonCartStillEntity;
-import net.mcreator.clashofclansweapons.entity.CannonCartLv1RangedItemEntity;
-import net.mcreator.clashofclansweapons.entity.CannonCartEntity;
-import net.mcreator.clashofclansweapons.entity.CCrageEntity;
-import net.mcreator.clashofclansweapons.entity.CCincantesimo0Entity;
-import net.mcreator.clashofclansweapons.entity.CCIncantesimo2Entity;
-import net.mcreator.clashofclansweapons.entity.CCIncantesimo1Entity;
-import net.mcreator.clashofclansweapons.entity.CCHBEntity;
-import net.mcreator.clashofclansweapons.entity.CC1Entity;
-import net.mcreator.clashofclansweapons.entity.BuilderEntity;
-import net.mcreator.clashofclansweapons.entity.BigBoyEntity;
-import net.mcreator.clashofclansweapons.entity.BattleMachineLv20Entity;
-import net.mcreator.clashofclansweapons.entity.BattleMachineLv10Entity;
-import net.mcreator.clashofclansweapons.entity.BattleBuilderHutRagedEntity;
-import net.mcreator.clashofclansweapons.entity.BattleBuilderHutLeveltwoEntity;
-import net.mcreator.clashofclansweapons.entity.BattleBuilderEntity;
-import net.mcreator.clashofclansweapons.entity.BMachineEntity;
-import net.mcreator.clashofclansweapons.entity.ArcherQueenEntity;
-import net.mcreator.clashofclansweapons.entity.AirdefenceRangedEntity;
-import net.mcreator.clashofclansweapons.entity.AirDefenceEntity;
-import net.mcreator.clashofclansweapons.entity.AirBBEntity;
-import net.mcreator.clashofclansweapons.entity.AirBBBEntity;
 import net.mcreator.clashofclansweapons.ClashofclansweaponsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -397,7 +314,7 @@ public class ClashofclansweaponsModEntities {
 			EntityType.Builder.<MountainGolemEntity>of(MountainGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MountainGolemEntity::new)
 
-					.sized(9.7f, 9f));
+					.sized(5.7f, 9f));
 	public static final RegistryObject<EntityType<BattleBuilderEntity>> BATTLE_BUILDER = register("battle_builder",
 			EntityType.Builder.<BattleBuilderEntity>of(BattleBuilderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BattleBuilderEntity::new)
@@ -413,7 +330,7 @@ public class ClashofclansweaponsModEntities {
 					.sized(2f, 3f));
 	public static final RegistryObject<EntityType<GiantBallsEntity>> GIANT_BALLS = register("projectile_giant_balls",
 			EntityType.Builder.<GiantBallsEntity>of(GiantBallsEntity::new, MobCategory.MISC).setCustomClientFactory(GiantBallsEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(1f, 1f));
 	public static final RegistryObject<EntityType<GiantCannonBBEntity>> GIANT_CANNON_BB = register("giant_cannon_bb",
 			EntityType.Builder.<GiantCannonBBEntity>of(GiantCannonBBEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GiantCannonBBEntity::new)
@@ -474,7 +391,23 @@ public class ClashofclansweaponsModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EarthquakeDEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<HealerEntity>> HEALER = register("healer",EntityType.Builder.<HealerEntity>of(HealerEntity::new, MobCategory.CREATURE)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3));
+	public static final RegistryObject<EntityType<FireArrowEntity>> FIRE_ARROW = register("fire_arrow", EntityType.Builder.<FireArrowEntity>of(FireArrowEntity::new,MobCategory.MISC).clientTrackingRange(4).updateInterval(20).setCustomClientFactory(FireArrowEntity::new));
 
+	public static final RegistryObject<EntityType<LogEntity>> LOG = register("log", EntityType.Builder.<LogEntity>of(LogEntity::new, MobCategory.MISC).sized(1,0.4f).clientTrackingRange(64).setShouldReceiveVelocityUpdates(true).setCustomClientFactory(LogEntity::new));
+
+	public static final RegistryObject<EntityType<LogTrapEntity>> LOG_TRAP = register("log_trap", EntityType.Builder.<LogTrapEntity>of(LogTrapEntity::new,MobCategory.MISC).sized(1,0.4f).clientTrackingRange(64).setShouldReceiveVelocityUpdates(true).setCustomClientFactory(LogTrapEntity::new));
+
+	public static final RegistryObject<EntityType<TH14PEntity>> TH14_P = register("th14p", EntityType.Builder.<TH14PEntity>of(TH14PEntity::new, MobCategory.MISC).sized(0.5f,0.5f).setUpdateInterval(20).setCustomClientFactory(TH14PEntity::new));
+
+	public static final RegistryObject<EntityType<TownHall14Entity>> TH14 = register("th14", EntityType.Builder.<TownHall14Entity>of(TownHall14Entity::new,MobCategory.CREATURE).sized(3.8f,3.6f).clientTrackingRange(64).setShouldReceiveVelocityUpdates(true).setCustomClientFactory(TownHall14Entity::new));
+
+	public static final RegistryObject<EntityType<HasteAreaEntity>> HASTE_AREA = register("invisibilty_area", EntityType.Builder.<HasteAreaEntity>of(HasteAreaEntity::new,MobCategory.MISC).sized(8f,0.1f).setShouldReceiveVelocityUpdates(true).setCustomClientFactory(HasteAreaEntity::new));
+
+	public static final RegistryObject<EntityType<HasteEntity>> HASTE = register("haste", EntityType.Builder.<HasteEntity>of(HasteEntity::new,MobCategory.MISC).sized(0.5f,0.5f).setCustomClientFactory(HasteEntity::new).setShouldReceiveVelocityUpdates(true));
+
+	public static final RegistryObject<EntityType<InfinityBottleThrowable>> INFINITY_BOTTLE = register("infinity_bottle", EntityType.Builder.<InfinityBottleThrowable>of(InfinityBottleThrowable::new, MobCategory.MISC).sized(0.5f,0.5f));
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}
@@ -539,6 +472,10 @@ public class ClashofclansweaponsModEntities {
 			JumpAreaEntity.init();
 			JumpEntityEntity.init();
 			EarthquakeDEntity.init();
+			HealerEntity.init();
+			LogEntity.init();
+			HasteAreaEntity.init();
+			HasteEntity.init();
 		});
 	}
 
@@ -601,5 +538,11 @@ public class ClashofclansweaponsModEntities {
 		event.put(JUMP_AREA.get(), JumpAreaEntity.createAttributes().build());
 		event.put(JUMP_ENTITY.get(), JumpEntityEntity.createAttributes().build());
 		event.put(EARTHQUAKE_D.get(), EarthquakeDEntity.createAttributes().build());
+		event.put(HEALER.get(),HealerEntity.createAttributes().build());
+		event.put(LOG.get(), LogEntity.createAttributes().build());
+		event.put(LOG_TRAP.get(), LogTrapEntity.createAttributes().build());
+		event.put(TH14.get(), TownHall14Entity.createAttributes().build());
+		event.put(HASTE_AREA.get(), HasteAreaEntity.createAttributes().build());
+		event.put(HASTE.get(),HasteEntity.createAttributes().build());
 	}
 }

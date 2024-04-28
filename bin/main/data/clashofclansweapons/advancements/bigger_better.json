@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "clashofclansweapons:town_hall_lv_2"
+    },
+    "title": {
+      "translate": "advancements.bigger_better.title"
+    },
+    "description": {
+      "translate": "advancements.bigger_better.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bigger_better": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clashofclansweapons:town_hall_le_3"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "clashofclansweapons:the_begin"
+}

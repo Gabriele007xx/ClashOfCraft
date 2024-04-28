@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "clashofclansweapons:clan_castle_level_2"
+    },
+    "title": {
+      "translate": "advancements.empire_builder_ii.title"
+    },
+    "description": {
+      "translate": "advancements.empire_builder_ii.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "empire_builder_ii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clashofclansweapons:clan_castle_level_2"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "clashofclansweapons:empire_builder"
+}
